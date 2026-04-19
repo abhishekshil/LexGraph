@@ -1,0 +1,23 @@
+THE INDIAN EVIDENCE ACT, 1872
+
+3. Interpretation clause.
+In this Act the following words and expressions are used in the following
+senses, unless a contrary intention appears from the context: "Evidence"
+means and includes all statements which the Court permits or requires to be
+made before it by witnesses, in relation to matters of fact under inquiry,
+and all documents including electronic records produced for the inspection
+of the Court.
+
+65B. Admissibility of electronic records.
+Notwithstanding anything contained in this Act, any information contained in
+an electronic record which is printed on a paper, stored, recorded or copied
+in optical or magnetic media produced by a computer shall be deemed to be a
+document, and shall be admissible in any proceedings, without further proof
+or production of the original, if the conditions specified in this section
+are satisfied.
+
+101. Burden of proof.
+Whoever desires any Court to give judgment as to any legal right or
+liability dependent on the existence of facts which he asserts, must prove
+that those facts exist. When a person is bound to prove the existence of any
+fact, it is said that the burden of proof lies on that person.

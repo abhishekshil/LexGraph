@@ -1,0 +1,1016 @@
+{
+  "datasets": [
+    {
+      "dataset": "offence_ingredients_ipc_bns",
+      "summary": {
+        "items": 7,
+        "grounding_rate": 0.8113207547169812,
+        "unsupported_claim_rate": 0.18867924528301883,
+        "fabricated_marker_rate": 0.0,
+        "citation_faithfulness": 1.0,
+        "span_citation_correctness": 1.0,
+        "pack_utilisation": 1.0,
+        "tier1_anchor_rate": 0.8571428571428571,
+        "retrieval_hit_rate": 1.0,
+        "retrieval_coverage": 0.8571428571428571,
+        "refusal_rate": 0.14285714285714285,
+        "false_refusal_rate": 0.0,
+        "true_refusal_rate": 1.0,
+        "crosswalk_mapping_accuracy": 1.0,
+        "latency_mean_s": 0.006653505999955607,
+        "latency_p50_s": 0.006598958000722632,
+        "latency_p95_s": 0.00793100000009872,
+        "latency_max_s": 0.00793100000009872
+      },
+      "results": [
+        {
+          "id": "ipc_bns_theft",
+          "question": "What are the ingredients of theft under Section 378 IPC, and which is the corresponding BNS provision?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4], [S5] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S5] [S5]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n- [S5] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Punishment for theft.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 379 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n379. Punishment for theft.\nWhoever commits theft shall be punished with imprisonment of either\ndescription for a term which may extend to three years, or with fine, or with\nboth.",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_c1a99f5e535d4cdb9515fba48cff36c2",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "section:ipc:379",
+              "tier": 1,
+              "score": 1.0
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "Theft.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 378 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n378. Theft.\nWhoever, intending to take dishonestly any movable property out of the\npossession of any person without that person's consent, moves that property\nin order to such taking, is said to commit theft.",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_c240d7e518f245af94041db33189de8f",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "section:ipc:378",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S3",
+              "type": "statute",
+              "title": "Theft.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 303 BHARATIYA NYAYA SANHITA, 2023",
+              "excerpt": "\n303. Theft.\nWhoever, intending to take dishonestly any movable property out of the\npossession of any person without that person's consent, moves that property\nin order to such taking, is said to commit theft. Whoever commits theft shall\nbe punished with imprisonment of either description for a term which may\nextend to three years, or with fine, or with both.",
+              "source_id": "ep_0192d0cf0de74a228b64300c79a77b7f",
+              "source_span_id": "span_e299903ffd0e499b896f1d9d11542fb2",
+              "file_id": "file_9b7a79ba04de4d8e9bcea30df07607f0",
+              "chunk_id": null,
+              "node_id": "section:bns:303",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S4",
+              "type": "statute",
+              "title": "INDIAN PENAL CODE, 1860",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_b17d48cc22af49bba902f941c80b1d29",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "act:ipc",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S5",
+              "type": "statute",
+              "title": "BHARATIYA NYAYA SANHITA, 2023",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "BHARATIYA NYAYA SANHITA, 2023",
+              "source_id": "ep_0192d0cf0de74a228b64300c79a77b7f",
+              "source_span_id": "span_eb69fde77147417ca32a3412ea159069",
+              "file_id": "file_9b7a79ba04de4d8e9bcea30df07607f0",
+              "chunk_id": null,
+              "node_id": "act:bns",
+              "tier": 1,
+              "score": 0.0
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "pack_tiers": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "pack_node_ids": [
+            "section:ipc:379",
+            "section:ipc:378",
+            "section:bns:303",
+            "act:ipc",
+            "act:bns"
+          ],
+          "gold": {
+            "id": "ipc_bns_theft",
+            "expected_mapping": {
+              "source": "s.378 ipc",
+              "target": "303"
+            },
+            "expected_sections": [
+              "Section 378",
+              "Section 303"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.00793100000009872,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "ipc_bns_theft_punishment",
+          "question": "What is the punishment for theft under Section 379 IPC?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4], [S5], [S6], [S7], [S8] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S8]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n- [S5] cited excerpt — see pack.\n- [S6] cited excerpt — see pack.\n- [S7] cited excerpt — see pack.\n- [S8] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Theft.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 378 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n378. Theft.\nWhoever, intending to take dishonestly any movable property out of the\npossession of any person without that person's consent, moves that property\nin order to such taking, is said to commit theft.",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_c240d7e518f245af94041db33189de8f",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "section:ipc:378",
+              "tier": 1,
+              "score": 0.1
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "Punishment for theft.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 379 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n379. Punishment for theft.\nWhoever commits theft shall be punished with imprisonment of either\ndescription for a term which may extend to three years, or with fine, or with\nboth.",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_c1a99f5e535d4cdb9515fba48cff36c2",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "section:ipc:379",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S3",
+              "type": "statute",
+              "title": "Theft.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 303 BHARATIYA NYAYA SANHITA, 2023",
+              "excerpt": "\n303. Theft.\nWhoever, intending to take dishonestly any movable property out of the\npossession of any person without that person's consent, moves that property\nin order to such taking, is said to commit theft. Whoever commits theft shall\nbe punished with imprisonment of either description for a term which may\nextend to three years, or with fine, or with both.",
+              "source_id": "ep_0192d0cf0de74a228b64300c79a77b7f",
+              "source_span_id": "span_e299903ffd0e499b896f1d9d11542fb2",
+              "file_id": "file_9b7a79ba04de4d8e9bcea30df07607f0",
+              "chunk_id": null,
+              "node_id": "section:bns:303",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S4",
+              "type": "statute",
+              "title": "INDIAN PENAL CODE, 1860",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_b17d48cc22af49bba902f941c80b1d29",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "act:ipc",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S5",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n379. Punishment for theft.\nWhoever commits theft shall be punished with imprisonment of either\ndescription for a term which may extend to three years, or with fine, or with\nboth.",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_c1a99f5e535d4cdb9515fba48cff36c2",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "span_c1a99f5e535d4cdb9515fba48cff36c2",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S6",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n303. Theft.\nWhoever, intending to take dishonestly any movable property out of the\npossession of any person without that person's consent, moves that property\nin order to such taking, is said to commit theft. Whoever commits theft shall\nbe punished with imprisonment of either description for a term which may\nextend to three years, or with fine, or with both.",
+              "source_id": "ep_0192d0cf0de74a228b64300c79a77b7f",
+              "source_span_id": "span_e299903ffd0e499b896f1d9d11542fb2",
+              "file_id": "file_9b7a79ba04de4d8e9bcea30df07607f0",
+              "chunk_id": null,
+              "node_id": "span_e299903ffd0e499b896f1d9d11542fb2",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S7",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_b17d48cc22af49bba902f941c80b1d29",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "span_b17d48cc22af49bba902f941c80b1d29",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S8",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n378. Theft.\nWhoever, intending to take dishonestly any movable property out of the\npossession of any person without that person's consent, moves that property\nin order to such taking, is said to commit theft.",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_c240d7e518f245af94041db33189de8f",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "span_c240d7e518f245af94041db33189de8f",
+              "tier": 8,
+              "score": 0.1
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "pack_tiers": [
+            1,
+            1,
+            1,
+            1,
+            8,
+            8,
+            8,
+            8
+          ],
+          "pack_node_ids": [
+            "section:ipc:378",
+            "section:ipc:379",
+            "section:bns:303",
+            "act:ipc",
+            "span_c1a99f5e535d4cdb9515fba48cff36c2",
+            "span_e299903ffd0e499b896f1d9d11542fb2",
+            "span_b17d48cc22af49bba902f941c80b1d29",
+            "span_c240d7e518f245af94041db33189de8f"
+          ],
+          "gold": {
+            "id": "ipc_bns_theft_punishment",
+            "expected_sections": [
+              "Section 379"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.0068184169995220145,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "ipc_bns_murder",
+          "question": "What are the ingredients of murder under Section 300 IPC, and which is the corresponding BNS provision?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S4]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Murder.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 300 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n300. Murder.\nExcept in the cases hereinafter excepted, culpable homicide is murder, if the\nact by which the death is caused is done with the intention of causing death,\nor with the intention of causing such bodily injury as the offender knows to\nbe likely to cause the death of the person to whom the harm is caused, or if\nit is done with the intention of causing bodily injury sufficient in the\nordinary course of nature to cause death.",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_23ff6a0fa07f418fa9c2ce41704ac443",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "section:ipc:300",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "Murder.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 101 BHARATIYA NYAYA SANHITA, 2023",
+              "excerpt": "\n101. Murder.\nExcept in the cases hereinafter excepted, culpable homicide is murder if the\nact by which death is caused is done with the intention of causing death, or\nwith the intention of causing such bodily injury as the offender knows to be\nlikely to cause the death, or with the intention of causing bodily injury\nsufficient in the ordinary course of nature to cause death.",
+              "source_id": "ep_0192d0cf0de74a228b64300c79a77b7f",
+              "source_span_id": "span_9df2c81247424ac8a9443b044258b06c",
+              "file_id": "file_9b7a79ba04de4d8e9bcea30df07607f0",
+              "chunk_id": null,
+              "node_id": "section:bns:101",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S3",
+              "type": "statute",
+              "title": "INDIAN PENAL CODE, 1860",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_b17d48cc22af49bba902f941c80b1d29",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "act:ipc",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S4",
+              "type": "statute",
+              "title": "BHARATIYA NYAYA SANHITA, 2023",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "BHARATIYA NYAYA SANHITA, 2023",
+              "source_id": "ep_0192d0cf0de74a228b64300c79a77b7f",
+              "source_span_id": "span_eb69fde77147417ca32a3412ea159069",
+              "file_id": "file_9b7a79ba04de4d8e9bcea30df07607f0",
+              "chunk_id": null,
+              "node_id": "act:bns",
+              "tier": 1,
+              "score": 0.0
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "pack_tiers": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "pack_node_ids": [
+            "section:ipc:300",
+            "section:bns:101",
+            "act:ipc",
+            "act:bns"
+          ],
+          "gold": {
+            "id": "ipc_bns_murder",
+            "expected_mapping": {
+              "source": "s.300 ipc",
+              "target": "101"
+            },
+            "expected_sections": [
+              "Section 300",
+              "Section 101"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.006714541999826906,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "ipc_bns_murder_punishment",
+          "question": "What is the punishment for murder under Section 302 IPC?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4], [S5], [S6], [S7], [S8] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S8]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n- [S5] cited excerpt — see pack.\n- [S6] cited excerpt — see pack.\n- [S7] cited excerpt — see pack.\n- [S8] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Punishment for murder.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 302 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n302. Punishment for murder.\nWhoever commits murder shall be punished with death, or imprisonment for\nlife, and shall also be liable to fine.",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_a16615d47b1a4339b5975e306ac3f97d",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "section:ipc:302",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "Punishment for murder.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 103 BHARATIYA NYAYA SANHITA, 2023",
+              "excerpt": "\n103. Punishment for murder.\nWhoever commits murder shall be punished with death or imprisonment for life,\nand shall also be liable to fine.",
+              "source_id": "ep_0192d0cf0de74a228b64300c79a77b7f",
+              "source_span_id": "span_7ea3ba0c0f2b44e5a440d767844c01f2",
+              "file_id": "file_9b7a79ba04de4d8e9bcea30df07607f0",
+              "chunk_id": null,
+              "node_id": "section:bns:103",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S3",
+              "type": "statute",
+              "title": "INDIAN PENAL CODE, 1860",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_b17d48cc22af49bba902f941c80b1d29",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "act:ipc",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S4",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n302. Punishment for murder.\nWhoever commits murder shall be punished with death, or imprisonment for\nlife, and shall also be liable to fine.",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_a16615d47b1a4339b5975e306ac3f97d",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "span_a16615d47b1a4339b5975e306ac3f97d",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S5",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n103. Punishment for murder.\nWhoever commits murder shall be punished with death or imprisonment for life,\nand shall also be liable to fine.",
+              "source_id": "ep_0192d0cf0de74a228b64300c79a77b7f",
+              "source_span_id": "span_7ea3ba0c0f2b44e5a440d767844c01f2",
+              "file_id": "file_9b7a79ba04de4d8e9bcea30df07607f0",
+              "chunk_id": null,
+              "node_id": "span_7ea3ba0c0f2b44e5a440d767844c01f2",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S6",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_b17d48cc22af49bba902f941c80b1d29",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "span_b17d48cc22af49bba902f941c80b1d29",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S7",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XVI — OF OFFENCES AFFECTING THE HUMAN BODY",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_c3b832332cd4480a92db4ed809660423",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "span_c3b832332cd4480a92db4ed809660423",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S8",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XVII — OF OFFENCES AGAINST PROPERTY",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_af96f1153a5a4f558119f3f0cb639a63",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "span_af96f1153a5a4f558119f3f0cb639a63",
+              "tier": 8,
+              "score": 0.1
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "pack_tiers": [
+            1,
+            1,
+            1,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "pack_node_ids": [
+            "section:ipc:302",
+            "section:bns:103",
+            "act:ipc",
+            "span_a16615d47b1a4339b5975e306ac3f97d",
+            "span_7ea3ba0c0f2b44e5a440d767844c01f2",
+            "span_b17d48cc22af49bba902f941c80b1d29",
+            "span_c3b832332cd4480a92db4ed809660423",
+            "span_af96f1153a5a4f558119f3f0cb639a63"
+          ],
+          "gold": {
+            "id": "ipc_bns_murder_punishment",
+            "expected_sections": [
+              "Section 302"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.0064410830000269925,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "ipc_bns_cheating",
+          "question": "What are the ingredients of cheating under Section 415 IPC, and which is the corresponding BNS provision?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S4]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Cheating.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 415 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n415. Cheating.\nWhoever, by deceiving any person, fraudulently or dishonestly induces the\nperson so deceived to deliver any property to any person, or to consent that\nany person shall retain any property, or intentionally induces the person so\ndeceived to do or omit to do anything which he would not do or omit if he were\nnot so deceived, and which act or omission causes or is likely to cause damage\nor harm to that person in body, mind, reputation or property, is said to\ncheat.",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_34b41170ec0f4e2fa4cf9bcc7730b2a8",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "section:ipc:415",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "Cheating.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 318 BHARATIYA NYAYA SANHITA, 2023",
+              "excerpt": "\n318. Cheating.\nWhoever, by deceiving any person, fraudulently or dishonestly induces the\nperson so deceived to deliver any property to any person, or to consent that\nany person shall retain any property, or intentionally induces the person so\ndeceived to do or omit to do anything which he would not do or omit if he\nwere not so deceived, and which act or omission causes or is likely to cause\ndamage or harm to that person in body, mind, reputation or property, is said\nto cheat. Whoever cheats shall be punished with imprisonment of either\ndescription for a term which may extend to three years, or with fine, or with\nboth.",
+              "source_id": "ep_0192d0cf0de74a228b64300c79a77b7f",
+              "source_span_id": "span_3d5b5c907f2942c89e36738730af4de0",
+              "file_id": "file_9b7a79ba04de4d8e9bcea30df07607f0",
+              "chunk_id": null,
+              "node_id": "section:bns:318",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S3",
+              "type": "statute",
+              "title": "INDIAN PENAL CODE, 1860",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_b17d48cc22af49bba902f941c80b1d29",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "act:ipc",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S4",
+              "type": "statute",
+              "title": "BHARATIYA NYAYA SANHITA, 2023",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "BHARATIYA NYAYA SANHITA, 2023",
+              "source_id": "ep_0192d0cf0de74a228b64300c79a77b7f",
+              "source_span_id": "span_eb69fde77147417ca32a3412ea159069",
+              "file_id": "file_9b7a79ba04de4d8e9bcea30df07607f0",
+              "chunk_id": null,
+              "node_id": "act:bns",
+              "tier": 1,
+              "score": 0.0
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "pack_tiers": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "pack_node_ids": [
+            "section:ipc:415",
+            "section:bns:318",
+            "act:ipc",
+            "act:bns"
+          ],
+          "gold": {
+            "id": "ipc_bns_cheating",
+            "expected_mapping": {
+              "source": "s.415 ipc",
+              "target": "318"
+            },
+            "expected_sections": [
+              "Section 415",
+              "Section 318"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.006027791999258625,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "ipc_bns_culpable_homicide",
+          "question": "Define culpable homicide under Section 299 IPC.",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4], [S5], [S6], [S7], [S8] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S8]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n- [S5] cited excerpt — see pack.\n- [S6] cited excerpt — see pack.\n- [S7] cited excerpt — see pack.\n- [S8] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Culpable homicide.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 299 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n299. Culpable homicide.\nWhoever causes death by doing an act with the intention of causing death, or\nwith the intention of causing such bodily injury as is likely to cause death,\nor with the knowledge that he is likely by such act to cause death, commits\nthe offence of culpable homicide.",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_6f07d9e6dd124114aea2efca34e32e8d",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "section:ipc:299",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "Culpable homicide.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 100 BHARATIYA NYAYA SANHITA, 2023",
+              "excerpt": "\n100. Culpable homicide.\nWhoever causes death by doing an act with the intention of causing death, or\nwith the intention of causing such bodily injury as is likely to cause death,\nor with the knowledge that he is likely by such act to cause death, commits\nthe offence of culpable homicide.",
+              "source_id": "ep_0192d0cf0de74a228b64300c79a77b7f",
+              "source_span_id": "span_fabe89a08bc14a9fa8babdab93421b4b",
+              "file_id": "file_9b7a79ba04de4d8e9bcea30df07607f0",
+              "chunk_id": null,
+              "node_id": "section:bns:100",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S3",
+              "type": "statute",
+              "title": "INDIAN PENAL CODE, 1860",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_b17d48cc22af49bba902f941c80b1d29",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "act:ipc",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S4",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n299. Culpable homicide.\nWhoever causes death by doing an act with the intention of causing death, or\nwith the intention of causing such bodily injury as is likely to cause death,\nor with the knowledge that he is likely by such act to cause death, commits\nthe offence of culpable homicide.",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_6f07d9e6dd124114aea2efca34e32e8d",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "span_6f07d9e6dd124114aea2efca34e32e8d",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S5",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n100. Culpable homicide.\nWhoever causes death by doing an act with the intention of causing death, or\nwith the intention of causing such bodily injury as is likely to cause death,\nor with the knowledge that he is likely by such act to cause death, commits\nthe offence of culpable homicide.",
+              "source_id": "ep_0192d0cf0de74a228b64300c79a77b7f",
+              "source_span_id": "span_fabe89a08bc14a9fa8babdab93421b4b",
+              "file_id": "file_9b7a79ba04de4d8e9bcea30df07607f0",
+              "chunk_id": null,
+              "node_id": "span_fabe89a08bc14a9fa8babdab93421b4b",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S6",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_b17d48cc22af49bba902f941c80b1d29",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "span_b17d48cc22af49bba902f941c80b1d29",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S7",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XVI — OF OFFENCES AFFECTING THE HUMAN BODY",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_c3b832332cd4480a92db4ed809660423",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "span_c3b832332cd4480a92db4ed809660423",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S8",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XVII — OF OFFENCES AGAINST PROPERTY",
+              "source_id": "ep_a0e0a7a707154715b01a89e271a711aa",
+              "source_span_id": "span_af96f1153a5a4f558119f3f0cb639a63",
+              "file_id": "file_b4a8720c3687434696b9be19d79e470f",
+              "chunk_id": null,
+              "node_id": "span_af96f1153a5a4f558119f3f0cb639a63",
+              "tier": 8,
+              "score": 0.1
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "pack_tiers": [
+            1,
+            1,
+            1,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "pack_node_ids": [
+            "section:ipc:299",
+            "section:bns:100",
+            "act:ipc",
+            "span_6f07d9e6dd124114aea2efca34e32e8d",
+            "span_fabe89a08bc14a9fa8babdab93421b4b",
+            "span_b17d48cc22af49bba902f941c80b1d29",
+            "span_c3b832332cd4480a92db4ed809660423",
+            "span_af96f1153a5a4f558119f3f0cb639a63"
+          ],
+          "gold": {
+            "id": "ipc_bns_culpable_homicide",
+            "expected_sections": [
+              "Section 299"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.006598958000722632,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "unanswerable_random",
+          "question": "What is the meaning of the word xyzzy in Indian law?",
+          "matter_scope": null,
+          "answer": "Answer: Insufficient evidence was retrieved to answer this question from authoritative sources. No claim has been made. Narrow the query, add more relevant material, or check the ingestion status.\n\nLegal basis:\nConfidence: LOW\nInsufficient evidence: YES",
+          "insufficient_evidence": true,
+          "confidence": "low",
+          "citations": [],
+          "pack_spans": [],
+          "pack_tiers": [],
+          "pack_node_ids": [],
+          "gold": {},
+          "latency_s": 0.0060427500002333545,
+          "notes": [
+            "refusal:retrieval_insufficient"
+          ],
+          "extras": {
+            "refusal_reason": "retrieval_insufficient"
+          }
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-04-18T08:39:16.946299+00:00",
+  "provider": "stub"
+}

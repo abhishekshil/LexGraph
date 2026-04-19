@@ -1,0 +1,6 @@
+# Seed PDFs from the SCI judgments mirror (CC-BY-4.0 where applicable).
+#
+# The adapter respects the attribution baked into the class. Add more judgment
+# URLs here; names should include a 4-digit year for discovery filters.
+version: 2025-01
+seeds: []

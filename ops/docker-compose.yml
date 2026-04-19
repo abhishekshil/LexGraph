@@ -1,0 +1,176 @@
+# LexGraph local stack.
+# Each agent runs as its own container so a single agent can be stopped,
+# restarted, scaled, or attached for debugging without affecting the others.
+#
+# The shared Python image (lexgraph-python:latest) is built once by the
+# `api` service and re-used by every worker via `image:` only.
+# Build it with: `docker compose -f ops/docker-compose.yml build api`.
+
+x-python-base: &python-base
+  image: lexgraph-python:latest
+  env_file: ../.env
+  depends_on:
+    redis:
+      condition: service_started
+    postgres:
+      condition: service_started
+    neo4j:
+      condition: service_started
+    minio:
+      condition: service_started
+    qdrant:
+      condition: service_started
+  # Bind-mount services/ (library + agents + API), configs/, data/ and scripts/
+  # so code changes, adapters, seed files and HF-fetched corpora are visible
+  # without rebuilding the image.
+  # scripts/ is mounted read-only so helper scripts (e.g. fetch_hf_corpora.py)
+  # run in-container without `docker cp`.
+  volumes:
+    - ../services:/app/services
+    - ../configs:/app/configs
+    - ../data:/app/data
+    - ../scripts:/app/scripts:ro
+  networks: [lexnet]
+  restart: unless-stopped
+
+services:
+  # ---------- infra ----------
+  neo4j:
+    # 5.26 LTS introduces `SET n:$(expr)` dynamic-label syntax, which
+    # graphiti-core >= 0.3 emits during bulk episode writes. 5.23 rejects
+    # this as a Cypher syntax error and the graph_writer worker crashes.
+    image: neo4j:5.26-community
+    environment:
+      NEO4J_AUTH: "neo4j/change-me-neo4j"
+      NEO4J_PLUGINS: '["apoc"]'
+      NEO4J_dbms_security_procedures_unrestricted: "apoc.*"
+    ports: ["7474:7474", "7687:7687"]
+    volumes: ["neo4j_data:/data", "neo4j_logs:/logs"]
+    networks: [lexnet]
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: lexgraph
+      POSTGRES_PASSWORD: change-me-postgres
+      POSTGRES_DB: lexgraph
+    ports: ["5432:5432"]
+    volumes: ["pg_data:/var/lib/postgresql/data"]
+    networks: [lexnet]
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    ports: ["6379:6379"]
+    networks: [lexnet]
+    restart: unless-stopped
+
+  minio:
+    image: minio/minio:latest
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: lexgraph
+      MINIO_ROOT_PASSWORD: change-me-minio
+    ports: ["9000:9000", "9001:9001"]
+    volumes: ["minio_data:/data"]
+    networks: [lexnet]
+    restart: unless-stopped
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports: ["6333:6333"]
+    volumes: ["qdrant_data:/qdrant/storage"]
+    networks: [lexnet]
+    restart: unless-stopped
+
+  # ---------- api ----------
+  api:
+    <<: *python-base
+    build:
+      context: ..
+      dockerfile: ops/Dockerfile.python
+    labels:
+      com.lexgraph.service.id: svc_http
+    command: python -m services.svc_http
+    ports: ["8080:8080"]
+
+  # ---------- agent workers (one microservice per agent) ----------
+  worker-ingest:
+    <<: *python-base
+    labels:
+      com.lexgraph.service.id: svc_ingest
+    command: python -m services.svc_ingest
+
+  worker-segment:
+    <<: *python-base
+    labels:
+      com.lexgraph.service.id: svc_segment
+    command: python -m services.svc_segment
+
+  worker-enrich:
+    <<: *python-base
+    labels:
+      com.lexgraph.service.id: svc_enrich
+    command: python -m services.svc_enrich
+
+  worker-graph:
+    <<: *python-base
+    labels:
+      com.lexgraph.service.id: svc_graph_write
+    command: python -m services.svc_graph_write
+
+  worker-index:
+    <<: *python-base
+    labels:
+      com.lexgraph.service.id: svc_index
+    command: python -m services.svc_index
+
+  worker-retrieve:
+    <<: *python-base
+    labels:
+      com.lexgraph.service.id: svc_retrieve
+    command: python -m services.svc_retrieve
+
+  worker-generate:
+    <<: *python-base
+    labels:
+      com.lexgraph.service.id: svc_generate
+    command: python -m services.svc_generate
+
+  worker-eval:
+    <<: *python-base
+    labels:
+      com.lexgraph.service.id: svc_eval
+    command: python -m services.svc_eval
+
+  # ---------- ui ----------
+  ui:
+    build:
+      context: ../ui
+      dockerfile: ../ops/Dockerfile.ui
+    env_file: ../.env
+    environment:
+      NEXT_PUBLIC_API_BASE_URL: http://localhost:8080/api
+    ports: ["3000:3000"]
+    # Bind-mount the Next.js source so page/CSS edits on the host hot-reload
+    # via `npm run dev` inside the container. node_modules is kept in an
+    # anonymous volume so the host's (potentially missing) modules don't
+    # shadow the ones installed during `docker build`.
+    volumes:
+      - ../ui:/app
+      - /app/node_modules
+      - /app/.next
+    depends_on: [api]
+    networks: [lexnet]
+    restart: unless-stopped
+
+volumes:
+  neo4j_data: {}
+  neo4j_logs: {}
+  pg_data: {}
+  minio_data: {}
+  qdrant_data: {}
+
+networks:
+  lexnet: {}

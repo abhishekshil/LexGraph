@@ -1,0 +1,59 @@
+# HuggingFace dataset mapping for public adapters.
+#
+# scripts/fetch_hf_corpora.py reads this file and, for each adapter, streams
+# up to ``max_samples`` records from the HF dataset, writes them as individual
+# files into data/raw/<adapter>/, and appends matching seed entries to
+# configs/adapters/<adapter>_seeds.yml.
+#
+# `gated: true` datasets require HF_TOKEN in the environment and the user must
+# have accepted the dataset's terms on huggingface.co first. Non-gated
+# datasets work anonymously.
+#
+# text_fields is a priority list — the first one present in a record wins.
+# If none match, the fetcher falls back to the longest string field.
+
+adapters:
+  nyaya_anumana:
+    dataset: L-NLProc/VidhikDastaavej
+    config: null
+    split: train
+    text_fields: [text, document, content, judgment, case_text, Case_Text, judgement, full_text]
+    id_field: null          # auto-generated if missing
+    court_field: court
+    year_field: year
+    max_samples: 10
+    court_default: "Supreme Court of India"
+    year_default: "2020"
+    source_tier_default: 2
+    license: "See dataset card"
+    gated: false
+
+  ildc:
+    dataset: d0r1h/ILC
+    config: null
+    split: train
+    text_fields: [Case, case, judgment, Judgment, text, Text, full_text, body]
+    id_field: null
+    court_field: null
+    year_field: null
+    max_samples: 10
+    court_default: "Supreme Court of India"
+    year_default: "2019"
+    source_tier_default: 2
+    license: "CC-BY-3.0"
+    gated: false
+
+  opennyai:
+    dataset: opennyaiorg/InJudgements_dataset
+    config: null
+    split: train
+    text_fields: [Text, text, judgment_text, judgment, Judgment, Case_Text, case_text, full_text]
+    id_field: null
+    court_field: Court_Name_Normalized
+    year_field: null
+    max_samples: 10
+    court_default: "Indian Court"
+    year_default: "2018"
+    source_tier_default: 3
+    license: "See dataset card (gated — requires HF_TOKEN and accepted terms)"
+    gated: true

@@ -1,0 +1,39 @@
+# India Code adapter seeds.
+#
+# Each entry becomes a discoverable SourceRef. The adapter tries HTTP first,
+# falling back to any file already present in data/raw/india_code/.
+#
+# Add more entries here as you widen the corpus. Keep the external_id stable
+# across rows — it is what the provenance graph uses to identify the source.
+version: 2025-01
+seeds:
+  - external_id: bns_2023
+    title: "Bharatiya Nyaya Sanhita, 2023"
+    act_name: "Bharatiya Nyaya Sanhita, 2023"
+    url: "https://www.indiacode.nic.in/bitstream/123456789/20062/1/a2023-45.pdf"
+    mime: application/pdf
+  - external_id: bnss_2023
+    title: "Bharatiya Nagarik Suraksha Sanhita, 2023"
+    act_name: "Bharatiya Nagarik Suraksha Sanhita, 2023"
+    url: "https://www.indiacode.nic.in/bitstream/123456789/20063/1/a2023-46.pdf"
+    mime: application/pdf
+  - external_id: bsa_2023
+    title: "Bharatiya Sakshya Adhiniyam, 2023"
+    act_name: "Bharatiya Sakshya Adhiniyam, 2023"
+    url: "https://www.indiacode.nic.in/bitstream/123456789/20064/1/a2023-47.pdf"
+    mime: application/pdf
+  - external_id: ipc_1860
+    title: "Indian Penal Code, 1860"
+    act_name: "Indian Penal Code, 1860"
+    url: "https://www.indiacode.nic.in/bitstream/123456789/15289/1/ipc_act.pdf"
+    mime: application/pdf
+  - external_id: crpc_1973
+    title: "Code of Criminal Procedure, 1973"
+    act_name: "Code of Criminal Procedure, 1973"
+    url: "https://www.indiacode.nic.in/bitstream/123456789/15272/1/the_code_of_criminal_procedure%2C_1973.pdf"
+    mime: application/pdf
+  - external_id: iea_1872
+    title: "Indian Evidence Act, 1872"
+    act_name: "Indian Evidence Act, 1872"
+    url: "https://www.indiacode.nic.in/bitstream/123456789/15351/1/iea_1872.pdf"
+    mime: application/pdf

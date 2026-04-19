@@ -1,0 +1,96 @@
+version: 2025-01
+seeds:
+- external_id: nyaya_anumana_00000_d4123c56eabe
+  title: '[ORG] between [FAC] [ORG], a non-profit medical research organization, and
+    [ORG], a pharmaceutical company, outlining th'
+  url: hf://L-NLProc/VidhikDastaavej#0
+  court: Supreme Court of India
+  year: '2020'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: L-NLProc/VidhikDastaavej
+    hf_split: train
+    hf_row: 0
+- external_id: nyaya_anumana_00001_856a69b912fa
+  title: Collaborative Research Agreement [Amendment] - Equilon Enterprises LLC dba
+    [ORG] and [ORG] TO THE AMENDED AND RESTATED C
+  url: hf://L-NLProc/VidhikDastaavej#1
+  court: Supreme Court of India
+  year: '2020'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: L-NLProc/VidhikDastaavej
+    hf_split: train
+    hf_row: 1
+- external_id: nyaya_anumana_00002_6d181b371eb9
+  title: Collaborative Research Agreement - Equilon Enterprises LLC dba [ORG] and
+    [ORG]
+  url: hf://L-NLProc/VidhikDastaavej#2
+  court: Supreme Court of India
+  year: '2020'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: L-NLProc/VidhikDastaavej
+    hf_split: train
+    hf_row: 2
+- external_id: nyaya_anumana_00003_38af79d5a383
+  title: Create a comprehensive Base Research Agreement between [ORG] and [ORG], outlining
+    the terms and conditions for collabora
+  url: hf://L-NLProc/VidhikDastaavej#3
+  court: Supreme Court of India
+  year: '2020'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: L-NLProc/VidhikDastaavej
+    hf_split: train
+    hf_row: 3
+- external_id: nyaya_anumana_00004_f67b1edd52a8
+  title: '[ORG]. [CARDINAL] between [ORG] and [GPE] Sales LLC, outlining the terms
+    and conditions for their collaborative research'
+  url: hf://L-NLProc/VidhikDastaavej#4
+  court: Supreme Court of India
+  year: '2020'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: L-NLProc/VidhikDastaavej
+    hf_split: train
+    hf_row: 4
+- external_id: nyaya_anumana_00005_23cbba22a57e
+  title: RESEARCH AGREEMENT
+  url: hf://L-NLProc/VidhikDastaavej#5
+  court: Supreme Court of India
+  year: '2020'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: L-NLProc/VidhikDastaavej
+    hf_split: train
+    hf_row: 5
+- external_id: nyaya_anumana_00006_3cf4b636f123
+  title: Research Agreement [Amendment No. [CARDINAL]] - Trimeris Inc., [PERSON] and
+    [ORG]
+  url: hf://L-NLProc/VidhikDastaavej#6
+  court: Supreme Court of India
+  year: '2020'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: L-NLProc/VidhikDastaavej
+    hf_split: train
+    hf_row: 6
+- external_id: nyaya_anumana_00007_5dd7b27809ba
+  title: '[ORG] and [ORG] and [ORG]'
+  url: hf://L-NLProc/VidhikDastaavej#7
+  court: Supreme Court of India
+  year: '2020'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: L-NLProc/VidhikDastaavej
+    hf_split: train
+    hf_row: 7

@@ -1,0 +1,98 @@
+version: 2025-01
+seeds:
+- external_id: ildc_00000_1edb4587e121
+  title: IN THE CIVIL APPELLATE JURISDICTION CIVIL APPEAL NO. 5908 OF 2021 FOURTH
+    DIMENSION SOLUTIONS LTD. Appellant(s VERSUS RIC
+  url: hf://d0r1h/ILC#0
+  court: Supreme Court of India
+  year: '2019'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: d0r1h/ILC
+    hf_split: train
+    hf_row: 0
+- external_id: ildc_00001_4f986e46c2a0
+  title: 'AFR Judgment reserved on 01.11.2021 Judgment delivered on 11.01.2022 Case
+    : U S 482 378 407 No. 19720 Applicant : Ishwar'
+  url: hf://d0r1h/ILC#1
+  court: Supreme Court of India
+  year: '2019'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: d0r1h/ILC
+    hf_split: train
+    hf_row: 1
+- external_id: ildc_00002_0b4ee11da79c
+  title: 'IN THE HIGH COURT OF DELHI AT NEW DELHI NAMAN SHARMA Reserved on: February
+    24 2022 Decided on: March 04 2022 BAIL APPLN.'
+  url: hf://d0r1h/ILC#2
+  court: Supreme Court of India
+  year: '2019'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: d0r1h/ILC
+    hf_split: train
+    hf_row: 2
+- external_id: ildc_00003_0215dec9e2aa
+  title: IN THE HIGH COURT OF JUDICATURE AT PATNA Civil Writ Jurisdiction Case No.65820
+    1. Md. Ushman Ansari Son of Md. Siddque A
+  url: hf://d0r1h/ILC#3
+  court: Supreme Court of India
+  year: '2019'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: d0r1h/ILC
+    hf_split: train
+    hf_row: 3
+- external_id: ildc_00004_6a1b83298bae
+  title: on 18 05 2021 on 22 03 civil ao st 9596 21 & ia st 9597 21.docR.M. AMBERKAR(Private
+    Secretary) IN THE HIGH COURT OF JUDI
+  url: hf://d0r1h/ILC#4
+  court: Supreme Court of India
+  year: '2019'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: d0r1h/ILC
+    hf_split: train
+    hf_row: 4
+- external_id: ildc_00005_24833b7abb16
+  title: 'IN THE HIGH COURT OF DELHI AT NEW DELHI Reserved on: 04.03.2021 Pronounced
+    on: 16.03.2021 BAIL APPLN. 2585 2020 & Crl.M.'
+  url: hf://d0r1h/ILC#5
+  court: Supreme Court of India
+  year: '2019'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: d0r1h/ILC
+    hf_split: train
+    hf_row: 5
+- external_id: ildc_00006_18bafc3d5706
+  title: 'IN THE HIGH COURT OF DELHI AT NEW DELHI CRL.REV.P. 774 2018 & CRL.M.(B).1392
+    2018 Date of decision: 03rd February 2021 G'
+  url: hf://d0r1h/ILC#6
+  court: Supreme Court of India
+  year: '2019'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: d0r1h/ILC
+    hf_split: train
+    hf_row: 6
+- external_id: ildc_00007_7745a3e08697
+  title: IN THE HIGH COURT OF ORISSA CUTTACK BLAPL No.2121 In the matter of an application
+    under section 439 of the Code of Crimi
+  url: hf://d0r1h/ILC#7
+  court: Supreme Court of India
+  year: '2019'
+  mime: text/plain
+  source_tier: 2
+  provenance:
+    hf_dataset: d0r1h/ILC
+    hf_split: train
+    hf_row: 7

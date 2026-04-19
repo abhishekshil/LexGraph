@@ -1,0 +1,85 @@
+# Canonical LexGraph product services (HTTP gateway + pipeline workers).
+# Stable IDs for routing, observability, and tooling. See GET /api/system/services.
+
+version: 1
+
+services:
+  - id: svc_http
+    title: HTTP gateway
+    kind: http
+    python_module: services.svc_http
+    compose_service: api
+    description: FastAPI surface for ingest, query, evidence, graph, and evaluation.
+    public_base_path: /api
+
+  - id: svc_ingest
+    title: Ingest worker
+    kind: worker
+    python_module: services.svc_ingest
+    compose_service: worker-ingest
+    description: Adapter and upload ingest; raw bytes and SourceEpisode roots.
+    listens: [ingest.request]
+    publishes: [ingest.completed]
+
+  - id: svc_segment
+    title: Segment worker
+    kind: worker
+    python_module: services.svc_segment
+    compose_service: worker-segment
+    description: Parse and legal-structure segmentation into SourceSpans.
+    listens: [ingest.completed]
+    publishes: [segment.completed]
+
+  - id: svc_enrich
+    title: Enrich worker
+    kind: worker
+    python_module: services.svc_enrich
+    compose_service: worker-enrich
+    description: NER, citations, section refs, crosswalk hints.
+    listens: [segment.completed]
+    publishes: [enrich.completed]
+
+  - id: svc_graph_write
+    title: Graph writer worker
+    kind: worker
+    python_module: services.svc_graph_write
+    compose_service: worker-graph
+    description: Ontology-validated graph upserts (Graphiti / Neo4j).
+    listens: [enrich.completed]
+    publishes: [graph.written]
+
+  - id: svc_index
+    title: Index worker
+    kind: worker
+    python_module: services.svc_index
+    compose_service: worker-index
+    description: Qdrant semantic mirror for fallback recall.
+    listens: [graph.written]
+    publishes: [index.completed]
+
+  - id: svc_retrieve
+    title: Retrieval worker
+    kind: worker
+    python_module: services.svc_retrieve
+    compose_service: worker-retrieve
+    description: Graph-first retrieval and evidence pack assembly.
+    listens: [query.request]
+    publishes: [query.evidence_pack]
+
+  - id: svc_generate
+    title: Generation worker
+    kind: worker
+    python_module: services.svc_generate
+    compose_service: worker-generate
+    description: Grounded answer generation from evidence packs.
+    listens: [query.evidence_pack]
+    publishes: [query.answer]
+
+  - id: svc_eval
+    title: Evaluation worker
+    kind: worker
+    python_module: services.svc_eval
+    compose_service: worker-eval
+    description: Evaluation suite runs on demand.
+    listens: [eval.request]
+    publishes: [eval.report]

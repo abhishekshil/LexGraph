@@ -1,0 +1,31 @@
+version: "0.1.0"
+tiers:
+  1:
+    name: "Constitution / statutes / amendments / gazette / notifications"
+    binding: true
+  2:
+    name: "Supreme Court of India"
+    binding: true
+  3:
+    name: "High Courts"
+    binding: true
+    scoped_jurisdiction: true
+  4:
+    name: "Tribunals / specialized forums"
+    binding: true
+    scoped_jurisdiction: true
+  5:
+    name: "Lower courts / procedural records"
+    binding: false
+  6:
+    name: "Private case documents provided by user"
+    binding: false
+    matter_scoped: true
+  7:
+    name: "User notes / private memos"
+    binding: false
+    matter_scoped: true
+  8:
+    name: "AI-generated summaries / abstractions"
+    binding: false
+    never_used_as_primary_citation: true

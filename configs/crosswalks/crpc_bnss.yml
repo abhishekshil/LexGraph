@@ -1,0 +1,50 @@
+# CrPC ↔ BNSS crosswalk (seed rows). Populate fully from govt concordance.
+version: "0.1.0"
+source_act: "Code of Criminal Procedure, 1973"
+target_act: "Bharatiya Nagarik Suraksha Sanhita, 2023"
+mappings:
+  - crpc: "41"
+    bnss: "35"
+    mapping_type: one_to_one
+    topic: "arrest without warrant by police"
+  - crpc: "50"
+    bnss: "47"
+    mapping_type: one_to_one
+    topic: "grounds of arrest to be communicated"
+  - crpc: "154"
+    bnss: "173"
+    mapping_type: one_to_one
+    topic: "FIR — information in cognizable cases"
+  - crpc: "161"
+    bnss: "180"
+    mapping_type: one_to_one
+    topic: "statement to police"
+  - crpc: "164"
+    bnss: "183"
+    mapping_type: one_to_one
+    topic: "recording of statement by magistrate"
+  - crpc: "167"
+    bnss: "187"
+    mapping_type: partial
+    topic: "procedure when investigation cannot be completed in 24 hours"
+    notes: "Default detention limits revised."
+  - crpc: "173"
+    bnss: "193"
+    mapping_type: one_to_one
+    topic: "police report on completion of investigation"
+  - crpc: "202"
+    bnss: "225"
+    mapping_type: one_to_one
+    topic: "postponement of issue of process"
+  - crpc: "437"
+    bnss: "480"
+    mapping_type: one_to_one
+    topic: "bail in non-bailable offences"
+  - crpc: "438"
+    bnss: "482"
+    mapping_type: one_to_one
+    topic: "anticipatory bail"
+  - crpc: "482"
+    bnss: "528"
+    mapping_type: one_to_one
+    topic: "inherent powers of High Court"

@@ -1,0 +1,178 @@
+version: 2025-01
+seeds:
+- external_id: opennyai_00000_6e980d1eadb8
+  title: IN THE HIGH COURT OF JUDICATURE AT PATNA
+  url: hf://opennyaiorg/InJudgements_dataset#0
+  court: Patna High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 0
+- external_id: opennyai_00001_0e433e71c7d6
+  title: IN THE HIGH COURT OF JUDICATURE AT PATNA
+  url: hf://opennyaiorg/InJudgements_dataset#1
+  court: Patna High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 1
+- external_id: opennyai_00002_54c9f55acda0
+  title: IN THE HIGH COURT OF JUDICATURE AT PATNA
+  url: hf://opennyaiorg/InJudgements_dataset#2
+  court: Patna High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 2
+- external_id: opennyai_00003_78d076870d66
+  title: IN THE HIGH COURT OF JUDICATURE AT PATNA
+  url: hf://opennyaiorg/InJudgements_dataset#3
+  court: Patna High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 3
+- external_id: opennyai_00004_53d5f6131c68
+  title: IN THE HIGH COURT OF JUDICATURE AT PATNA
+  url: hf://opennyaiorg/InJudgements_dataset#4
+  court: Patna High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 4
+- external_id: opennyai_00005_91911de102df
+  title: IN THE HIGH COURT OF JUDICATURE AT PATNA
+  url: hf://opennyaiorg/InJudgements_dataset#5
+  court: Patna High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 5
+- external_id: opennyai_00006_8bf0628a85ea
+  title: Patna High Court CWJC No.8216 of 2013 (04) dt.09-05-2016                              1
+  url: hf://opennyaiorg/InJudgements_dataset#6
+  court: Patna High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 6
+- external_id: opennyai_00007_1f6beb0e1337
+  title: IN THE HIGH COURT OF JUDICATURE AT PATNA
+  url: hf://opennyaiorg/InJudgements_dataset#7
+  court: Patna High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 7
+- external_id: opennyai_00008_102a54f9ca7b
+  title: Patna High Court LPA No.140 of 2014 (9) dt.18-04-2014                          1
+  url: hf://opennyaiorg/InJudgements_dataset#8
+  court: Patna High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 8
+- external_id: opennyai_00009_8de683cca966
+  title: IN THE HIGH COURT OF JUDICATURE AT PATNA
+  url: hf://opennyaiorg/InJudgements_dataset#9
+  court: Patna High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 9
+- external_id: opennyai_00010_c24edd416632
+  title: IN THE HIGH COURT OF JUDICATURE AT PATNA
+  url: hf://opennyaiorg/InJudgements_dataset#10
+  court: Patna High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 10
+- external_id: opennyai_00011_7c477f369a9f
+  title: 'JUDGMENT Jagannadha Rao, J. '
+  url: hf://opennyaiorg/InJudgements_dataset#11
+  court: Andhra High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 11
+- external_id: opennyai_00012_1409362e5496
+  title: 'JUDGMENT Chandra Reddy, C. J. '
+  url: hf://opennyaiorg/InJudgements_dataset#12
+  court: Andhra High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 12
+- external_id: opennyai_00013_7b8416934155
+  title: 'JUDGMENT Sirimulu, J.  '
+  url: hf://opennyaiorg/InJudgements_dataset#13
+  court: Andhra High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 13
+- external_id: opennyai_00014_6f3d245807c2
+  title: 'JUDGMENT Jeevan Reddy, J. '
+  url: hf://opennyaiorg/InJudgements_dataset#14
+  court: Andhra High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 14
+- external_id: opennyai_00015_73739e48f5a5
+  title: 'JUDGMENT B.J. Divan, C.J. '
+  url: hf://opennyaiorg/InJudgements_dataset#15
+  court: Andhra High Court
+  year: '2018'
+  mime: text/plain
+  source_tier: 3
+  provenance:
+    hf_dataset: opennyaiorg/InJudgements_dataset
+    hf_split: train
+    hf_row: 15

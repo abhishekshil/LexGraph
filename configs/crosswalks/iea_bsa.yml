@@ -1,0 +1,41 @@
+# Indian Evidence Act ↔ Bharatiya Sakshya Adhiniyam (seed rows).
+version: "0.1.0"
+source_act: "Indian Evidence Act, 1872"
+target_act: "Bharatiya Sakshya Adhiniyam, 2023"
+mappings:
+  - iea: "3"
+    bsa: "2"
+    mapping_type: one_to_one
+    topic: "definitions"
+  - iea: "24"
+    bsa: "22"
+    mapping_type: one_to_one
+    topic: "confession caused by inducement / threat / promise"
+  - iea: "25"
+    bsa: "23(1)"
+    mapping_type: one_to_one
+    topic: "confession to police officer not provable"
+  - iea: "27"
+    bsa: "23(2)"
+    mapping_type: partial
+    topic: "how much of information received from accused may be proved"
+  - iea: "45"
+    bsa: "39"
+    mapping_type: one_to_one
+    topic: "opinion of experts"
+  - iea: "65A"
+    bsa: "62"
+    mapping_type: one_to_one
+    topic: "electronic records — special provisions"
+  - iea: "65B"
+    bsa: "63"
+    mapping_type: one_to_one
+    topic: "admissibility of electronic records"
+  - iea: "114"
+    bsa: "119"
+    mapping_type: one_to_one
+    topic: "presumptions of fact"
+  - iea: "114A"
+    bsa: "120"
+    mapping_type: one_to_one
+    topic: "presumption in prosecution for rape"

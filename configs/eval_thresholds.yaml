@@ -1,0 +1,71 @@
+# LexGraph evaluation regression gate.
+#
+# Every key under a dataset (or under `_default`) is a metric field on
+# EvaluationSummary. `min` values must be met or exceeded; `max` values
+# must be strictly respected. The CI gate (`scripts/run_eval.py`) compares
+# observed numbers against this file and fails on any violation.
+#
+# These thresholds are intentionally set just below the *currently observed*
+# baseline with the deterministic stub provider. They are the floor that any
+# future change must stay above, not the optimistic target. Tighten them in
+# lockstep with real quality improvements.
+#
+# Units:
+#   rates       — in [0, 1]
+#   latency_*_s — seconds
+
+_default:
+  min:
+    citation_faithfulness: 0.95
+    span_citation_correctness: 0.80
+    retrieval_coverage: 0.50
+    retrieval_hit_rate: 0.80
+    tier1_anchor_rate: 0.50
+  max:
+    fabricated_marker_rate: 0.02
+    latency_p95_s: 8.0
+
+offence_ingredients_ipc_bns:
+  min:
+    grounding_rate: 0.75
+    retrieval_hit_rate: 0.90
+    retrieval_coverage: 0.75
+    tier1_anchor_rate: 0.75
+    crosswalk_mapping_accuracy: 0.80
+    true_refusal_rate: 0.90
+  max:
+    false_refusal_rate: 0.20
+    refusal_rate: 0.25
+
+procedure_crpc_bnss:
+  min:
+    grounding_rate: 0.70
+    retrieval_hit_rate: 0.80
+    retrieval_coverage: 0.70
+    tier1_anchor_rate: 0.70
+  max:
+    false_refusal_rate: 0.30
+
+evidence_iea_bsa:
+  min:
+    grounding_rate: 0.75
+    retrieval_hit_rate: 0.80
+    retrieval_coverage: 0.80
+    tier1_anchor_rate: 0.70
+  max:
+    false_refusal_rate: 0.20
+
+# Private-matter questions retrieve private-tier content (tiers 6/7), so the
+# public-focused thresholds don't apply. We only assert that the system does
+# not fabricate, does not false-refuse when evidence exists, and returns
+# SOMETHING for a meaningful fraction of questions.
+private_matter_qa:
+  min:
+    citation_faithfulness: 0.95
+    retrieval_coverage: 0.15
+    tier1_anchor_rate: null           # private docs are tier 6/7 by design
+    retrieval_hit_rate: null          # gold uses expected_keywords, not sections
+    span_citation_correctness: 0.80
+  max:
+    fabricated_marker_rate: 0.02
+    false_refusal_rate: 0.90          # with tiny corpus, refusal is acceptable

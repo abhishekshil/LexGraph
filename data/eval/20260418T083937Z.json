@@ -1,0 +1,2383 @@
+{
+  "datasets": [
+    {
+      "dataset": "evidence_iea_bsa",
+      "summary": {
+        "items": 3,
+        "grounding_rate": 0.8421052631578947,
+        "unsupported_claim_rate": 0.1578947368421053,
+        "fabricated_marker_rate": 0.0,
+        "citation_faithfulness": 1.0,
+        "span_citation_correctness": 1.0,
+        "pack_utilisation": 1.0,
+        "tier1_anchor_rate": 1.0,
+        "retrieval_hit_rate": 1.0,
+        "retrieval_coverage": 1.0,
+        "refusal_rate": 0.0,
+        "false_refusal_rate": 0.0,
+        "true_refusal_rate": 0.0,
+        "crosswalk_mapping_accuracy": 0.0,
+        "latency_mean_s": 0.006602388999757143,
+        "latency_p50_s": 0.006326249999801803,
+        "latency_p95_s": 0.0075164999998378335,
+        "latency_max_s": 0.0075164999998378335
+      },
+      "results": [
+        {
+          "id": "electronic_records",
+          "question": "Under what provisions can electronic records be admitted as evidence under the IEA and the BSA?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S2]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "INDIAN EVIDENCE ACT, 1872",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN EVIDENCE ACT, 1872",
+              "source_id": "ep_d221f2f56f134adcb395f2860d2db6cc",
+              "source_span_id": "span_9edf231f1a9a4f038f22323893afaa40",
+              "file_id": "file_8230fdba94f4433899db6f6682b4d722",
+              "chunk_id": null,
+              "node_id": "act:iea",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "BHARATIYA SAKSHYA ADHINIYAM, 2023",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "BHARATIYA SAKSHYA ADHINIYAM, 2023",
+              "source_id": "ep_30d4dd8bf04f4ca29df9711e1cfdda28",
+              "source_span_id": "span_c7c26b16888f4c71a7384cfce5e96325",
+              "file_id": "file_7b58c252c0a64449bbaf2596af3cc99a",
+              "chunk_id": null,
+              "node_id": "act:bsa",
+              "tier": 1,
+              "score": 0.0
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2"
+          ],
+          "pack_tiers": [
+            1,
+            1
+          ],
+          "pack_node_ids": [
+            "act:iea",
+            "act:bsa"
+          ],
+          "gold": {
+            "id": "electronic_records",
+            "expected_mapping": {
+              "source": "s.65b iea",
+              "target": "63"
+            },
+            "expected_sections": [
+              "Section 65B",
+              "Section 63"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.0075164999998378335,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "burden_of_proof",
+          "question": "What does Section 101 IEA say about the burden of proof?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4], [S5], [S6] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S5] [S6] [S6]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n- [S5] cited excerpt — see pack.\n- [S6] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Burden of proof.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 101 INDIAN EVIDENCE ACT, 1872",
+              "excerpt": "\n101. Burden of proof.\nWhoever desires any Court to give judgment as to any legal right or\nliability dependent on the existence of facts which he asserts, must prove\nthat those facts exist. When a person is bound to prove the existence of any\nfact, it is said that the burden of proof lies on that person.",
+              "source_id": "ep_d221f2f56f134adcb395f2860d2db6cc",
+              "source_span_id": "span_f4b64b73f59d4f45bc43a74a9f5979be",
+              "file_id": "file_8230fdba94f4433899db6f6682b4d722",
+              "chunk_id": null,
+              "node_id": "section:iea:101",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "INDIAN EVIDENCE ACT, 1872",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN EVIDENCE ACT, 1872",
+              "source_id": "ep_d221f2f56f134adcb395f2860d2db6cc",
+              "source_span_id": "span_9edf231f1a9a4f038f22323893afaa40",
+              "file_id": "file_8230fdba94f4433899db6f6682b4d722",
+              "chunk_id": null,
+              "node_id": "act:iea",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S3",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n101. Burden of proof.\nWhoever desires any Court to give judgment as to any legal right or\nliability dependent on the existence of facts which he asserts, must prove\nthat those facts exist. When a person is bound to prove the existence of any\nfact, it is said that the burden of proof lies on that person.",
+              "source_id": "ep_d221f2f56f134adcb395f2860d2db6cc",
+              "source_span_id": "span_f4b64b73f59d4f45bc43a74a9f5979be",
+              "file_id": "file_8230fdba94f4433899db6f6682b4d722",
+              "chunk_id": null,
+              "node_id": "span_f4b64b73f59d4f45bc43a74a9f5979be",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S4",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN EVIDENCE ACT, 1872",
+              "source_id": "ep_d221f2f56f134adcb395f2860d2db6cc",
+              "source_span_id": "span_9edf231f1a9a4f038f22323893afaa40",
+              "file_id": "file_8230fdba94f4433899db6f6682b4d722",
+              "chunk_id": null,
+              "node_id": "span_9edf231f1a9a4f038f22323893afaa40",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S5",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n3. Interpretation clause.\nIn this Act the following words and expressions are used in the following\nsenses, unless a contrary intention appears from the context: \"Evidence\"\nmeans and includes all statements which the Court permits or requires to be\nmade before it by witnesses, in relation to matters of fact under inquiry,\nand all documents including electronic records produced for the inspection\nof the Court.",
+              "source_id": "ep_d221f2f56f134adcb395f2860d2db6cc",
+              "source_span_id": "span_33a682448ec3415bbce2caf6e2c8ff30",
+              "file_id": "file_8230fdba94f4433899db6f6682b4d722",
+              "chunk_id": null,
+              "node_id": "span_33a682448ec3415bbce2caf6e2c8ff30",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S6",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n65B. Admissibility of electronic records.\nNotwithstanding anything contained in this Act, any information contained in\nan electronic record which is printed on a paper, stored, recorded or copied\nin optical or magnetic media produced by a computer shall be deemed to be a\ndocument, and shall be admissible in any proceedings, without further proof\nor production of the original, if the conditions specified in this section\nare satisfied.",
+              "source_id": "ep_d221f2f56f134adcb395f2860d2db6cc",
+              "source_span_id": "span_e6097256dae141c6a72fcacc86ae5c28",
+              "file_id": "file_8230fdba94f4433899db6f6682b4d722",
+              "chunk_id": null,
+              "node_id": "span_e6097256dae141c6a72fcacc86ae5c28",
+              "tier": 8,
+              "score": 0.1
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "pack_tiers": [
+            1,
+            1,
+            8,
+            8,
+            8,
+            8
+          ],
+          "pack_node_ids": [
+            "section:iea:101",
+            "act:iea",
+            "span_f4b64b73f59d4f45bc43a74a9f5979be",
+            "span_9edf231f1a9a4f038f22323893afaa40",
+            "span_33a682448ec3415bbce2caf6e2c8ff30",
+            "span_e6097256dae141c6a72fcacc86ae5c28"
+          ],
+          "gold": {
+            "id": "burden_of_proof",
+            "expected_sections": [
+              "Section 101"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.006326249999801803,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "definition_evidence",
+          "question": "How does the IEA define 'evidence'?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4], [S5] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S5] [S5]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n- [S5] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "INDIAN EVIDENCE ACT, 1872",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN EVIDENCE ACT, 1872",
+              "source_id": "ep_d221f2f56f134adcb395f2860d2db6cc",
+              "source_span_id": "span_9edf231f1a9a4f038f22323893afaa40",
+              "file_id": "file_8230fdba94f4433899db6f6682b4d722",
+              "chunk_id": null,
+              "node_id": "act:iea",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN EVIDENCE ACT, 1872",
+              "source_id": "ep_d221f2f56f134adcb395f2860d2db6cc",
+              "source_span_id": "span_9edf231f1a9a4f038f22323893afaa40",
+              "file_id": "file_8230fdba94f4433899db6f6682b4d722",
+              "chunk_id": null,
+              "node_id": "span_9edf231f1a9a4f038f22323893afaa40",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S3",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n3. Interpretation clause.\nIn this Act the following words and expressions are used in the following\nsenses, unless a contrary intention appears from the context: \"Evidence\"\nmeans and includes all statements which the Court permits or requires to be\nmade before it by witnesses, in relation to matters of fact under inquiry,\nand all documents including electronic records produced for the inspection\nof the Court.",
+              "source_id": "ep_d221f2f56f134adcb395f2860d2db6cc",
+              "source_span_id": "span_33a682448ec3415bbce2caf6e2c8ff30",
+              "file_id": "file_8230fdba94f4433899db6f6682b4d722",
+              "chunk_id": null,
+              "node_id": "span_33a682448ec3415bbce2caf6e2c8ff30",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S4",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n65B. Admissibility of electronic records.\nNotwithstanding anything contained in this Act, any information contained in\nan electronic record which is printed on a paper, stored, recorded or copied\nin optical or magnetic media produced by a computer shall be deemed to be a\ndocument, and shall be admissible in any proceedings, without further proof\nor production of the original, if the conditions specified in this section\nare satisfied.",
+              "source_id": "ep_d221f2f56f134adcb395f2860d2db6cc",
+              "source_span_id": "span_e6097256dae141c6a72fcacc86ae5c28",
+              "file_id": "file_8230fdba94f4433899db6f6682b4d722",
+              "chunk_id": null,
+              "node_id": "span_e6097256dae141c6a72fcacc86ae5c28",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S5",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n101. Burden of proof.\nWhoever desires any Court to give judgment as to any legal right or\nliability dependent on the existence of facts which he asserts, must prove\nthat those facts exist. When a person is bound to prove the existence of any\nfact, it is said that the burden of proof lies on that person.",
+              "source_id": "ep_d221f2f56f134adcb395f2860d2db6cc",
+              "source_span_id": "span_f4b64b73f59d4f45bc43a74a9f5979be",
+              "file_id": "file_8230fdba94f4433899db6f6682b4d722",
+              "chunk_id": null,
+              "node_id": "span_f4b64b73f59d4f45bc43a74a9f5979be",
+              "tier": 8,
+              "score": 0.1
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "pack_tiers": [
+            1,
+            8,
+            8,
+            8,
+            8
+          ],
+          "pack_node_ids": [
+            "act:iea",
+            "span_9edf231f1a9a4f038f22323893afaa40",
+            "span_33a682448ec3415bbce2caf6e2c8ff30",
+            "span_e6097256dae141c6a72fcacc86ae5c28",
+            "span_f4b64b73f59d4f45bc43a74a9f5979be"
+          ],
+          "gold": {
+            "id": "definition_evidence",
+            "expected_sections": [
+              "Section 3"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.005964416999631794,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "offence_ingredients_ipc_bns",
+      "summary": {
+        "items": 7,
+        "grounding_rate": 0.8113207547169812,
+        "unsupported_claim_rate": 0.18867924528301883,
+        "fabricated_marker_rate": 0.0,
+        "citation_faithfulness": 1.0,
+        "span_citation_correctness": 1.0,
+        "pack_utilisation": 1.0,
+        "tier1_anchor_rate": 0.8571428571428571,
+        "retrieval_hit_rate": 1.0,
+        "retrieval_coverage": 0.8571428571428571,
+        "refusal_rate": 0.14285714285714285,
+        "false_refusal_rate": 0.0,
+        "true_refusal_rate": 1.0,
+        "crosswalk_mapping_accuracy": 1.0,
+        "latency_mean_s": 0.006417476142944777,
+        "latency_p50_s": 0.0062225420006143395,
+        "latency_p95_s": 0.0075219580003249575,
+        "latency_max_s": 0.0075219580003249575
+      },
+      "results": [
+        {
+          "id": "ipc_bns_theft",
+          "question": "What are the ingredients of theft under Section 378 IPC, and which is the corresponding BNS provision?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4], [S5] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S5] [S5]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n- [S5] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Punishment for theft.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 379 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n379. Punishment for theft.\nWhoever commits theft shall be punished with imprisonment of either\ndescription for a term which may extend to three years, or with fine, or with\nboth.",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_70cf42ef861a4c589866bb2f05eb13dd",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "section:ipc:379",
+              "tier": 1,
+              "score": 1.0
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "Theft.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 378 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n378. Theft.\nWhoever, intending to take dishonestly any movable property out of the\npossession of any person without that person's consent, moves that property\nin order to such taking, is said to commit theft.",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_149b4ecdbdb94ba682a2efef12990a4d",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "section:ipc:378",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S3",
+              "type": "statute",
+              "title": "Theft.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 303 BHARATIYA NYAYA SANHITA, 2023",
+              "excerpt": "\n303. Theft.\nWhoever, intending to take dishonestly any movable property out of the\npossession of any person without that person's consent, moves that property\nin order to such taking, is said to commit theft. Whoever commits theft shall\nbe punished with imprisonment of either description for a term which may\nextend to three years, or with fine, or with both.",
+              "source_id": "ep_42d45493168a4ca18724f145b3233858",
+              "source_span_id": "span_e1ff7dbe148a44658dde71e5cf2532db",
+              "file_id": "file_1ee36c6bc4af4f91ac17403d656baaeb",
+              "chunk_id": null,
+              "node_id": "section:bns:303",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S4",
+              "type": "statute",
+              "title": "INDIAN PENAL CODE, 1860",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "act:ipc",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S5",
+              "type": "statute",
+              "title": "BHARATIYA NYAYA SANHITA, 2023",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "BHARATIYA NYAYA SANHITA, 2023",
+              "source_id": "ep_42d45493168a4ca18724f145b3233858",
+              "source_span_id": "span_481b33aadc6b4fd1a2a35ebe5427329a",
+              "file_id": "file_1ee36c6bc4af4f91ac17403d656baaeb",
+              "chunk_id": null,
+              "node_id": "act:bns",
+              "tier": 1,
+              "score": 0.0
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "pack_tiers": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "pack_node_ids": [
+            "section:ipc:379",
+            "section:ipc:378",
+            "section:bns:303",
+            "act:ipc",
+            "act:bns"
+          ],
+          "gold": {
+            "id": "ipc_bns_theft",
+            "expected_mapping": {
+              "source": "s.378 ipc",
+              "target": "303"
+            },
+            "expected_sections": [
+              "Section 378",
+              "Section 303"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.0075219580003249575,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "ipc_bns_theft_punishment",
+          "question": "What is the punishment for theft under Section 379 IPC?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4], [S5], [S6], [S7], [S8] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S8]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n- [S5] cited excerpt — see pack.\n- [S6] cited excerpt — see pack.\n- [S7] cited excerpt — see pack.\n- [S8] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Theft.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 378 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n378. Theft.\nWhoever, intending to take dishonestly any movable property out of the\npossession of any person without that person's consent, moves that property\nin order to such taking, is said to commit theft.",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_149b4ecdbdb94ba682a2efef12990a4d",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "section:ipc:378",
+              "tier": 1,
+              "score": 0.1
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "Punishment for theft.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 379 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n379. Punishment for theft.\nWhoever commits theft shall be punished with imprisonment of either\ndescription for a term which may extend to three years, or with fine, or with\nboth.",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_70cf42ef861a4c589866bb2f05eb13dd",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "section:ipc:379",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S3",
+              "type": "statute",
+              "title": "Theft.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 303 BHARATIYA NYAYA SANHITA, 2023",
+              "excerpt": "\n303. Theft.\nWhoever, intending to take dishonestly any movable property out of the\npossession of any person without that person's consent, moves that property\nin order to such taking, is said to commit theft. Whoever commits theft shall\nbe punished with imprisonment of either description for a term which may\nextend to three years, or with fine, or with both.",
+              "source_id": "ep_42d45493168a4ca18724f145b3233858",
+              "source_span_id": "span_e1ff7dbe148a44658dde71e5cf2532db",
+              "file_id": "file_1ee36c6bc4af4f91ac17403d656baaeb",
+              "chunk_id": null,
+              "node_id": "section:bns:303",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S4",
+              "type": "statute",
+              "title": "INDIAN PENAL CODE, 1860",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "act:ipc",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S5",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n379. Punishment for theft.\nWhoever commits theft shall be punished with imprisonment of either\ndescription for a term which may extend to three years, or with fine, or with\nboth.",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_70cf42ef861a4c589866bb2f05eb13dd",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_70cf42ef861a4c589866bb2f05eb13dd",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S6",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n303. Theft.\nWhoever, intending to take dishonestly any movable property out of the\npossession of any person without that person's consent, moves that property\nin order to such taking, is said to commit theft. Whoever commits theft shall\nbe punished with imprisonment of either description for a term which may\nextend to three years, or with fine, or with both.",
+              "source_id": "ep_42d45493168a4ca18724f145b3233858",
+              "source_span_id": "span_e1ff7dbe148a44658dde71e5cf2532db",
+              "file_id": "file_1ee36c6bc4af4f91ac17403d656baaeb",
+              "chunk_id": null,
+              "node_id": "span_e1ff7dbe148a44658dde71e5cf2532db",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S7",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S8",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n378. Theft.\nWhoever, intending to take dishonestly any movable property out of the\npossession of any person without that person's consent, moves that property\nin order to such taking, is said to commit theft.",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_149b4ecdbdb94ba682a2efef12990a4d",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_149b4ecdbdb94ba682a2efef12990a4d",
+              "tier": 8,
+              "score": 0.1
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "pack_tiers": [
+            1,
+            1,
+            1,
+            1,
+            8,
+            8,
+            8,
+            8
+          ],
+          "pack_node_ids": [
+            "section:ipc:378",
+            "section:ipc:379",
+            "section:bns:303",
+            "act:ipc",
+            "span_70cf42ef861a4c589866bb2f05eb13dd",
+            "span_e1ff7dbe148a44658dde71e5cf2532db",
+            "span_3cf45f4b734643289b0766f10e053e7f",
+            "span_149b4ecdbdb94ba682a2efef12990a4d"
+          ],
+          "gold": {
+            "id": "ipc_bns_theft_punishment",
+            "expected_sections": [
+              "Section 379"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.0062225420006143395,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "ipc_bns_murder",
+          "question": "What are the ingredients of murder under Section 300 IPC, and which is the corresponding BNS provision?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S4]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Murder.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 300 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n300. Murder.\nExcept in the cases hereinafter excepted, culpable homicide is murder, if the\nact by which the death is caused is done with the intention of causing death,\nor with the intention of causing such bodily injury as the offender knows to\nbe likely to cause the death of the person to whom the harm is caused, or if\nit is done with the intention of causing bodily injury sufficient in the\nordinary course of nature to cause death.",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_8ab6d5f863b64cc1a9192bbbc8cf9d19",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "section:ipc:300",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "Murder.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 101 BHARATIYA NYAYA SANHITA, 2023",
+              "excerpt": "\n101. Murder.\nExcept in the cases hereinafter excepted, culpable homicide is murder if the\nact by which death is caused is done with the intention of causing death, or\nwith the intention of causing such bodily injury as the offender knows to be\nlikely to cause the death, or with the intention of causing bodily injury\nsufficient in the ordinary course of nature to cause death.",
+              "source_id": "ep_42d45493168a4ca18724f145b3233858",
+              "source_span_id": "span_500c01fcdd7b4302b01c7bc34ae46441",
+              "file_id": "file_1ee36c6bc4af4f91ac17403d656baaeb",
+              "chunk_id": null,
+              "node_id": "section:bns:101",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S3",
+              "type": "statute",
+              "title": "INDIAN PENAL CODE, 1860",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "act:ipc",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S4",
+              "type": "statute",
+              "title": "BHARATIYA NYAYA SANHITA, 2023",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "BHARATIYA NYAYA SANHITA, 2023",
+              "source_id": "ep_42d45493168a4ca18724f145b3233858",
+              "source_span_id": "span_481b33aadc6b4fd1a2a35ebe5427329a",
+              "file_id": "file_1ee36c6bc4af4f91ac17403d656baaeb",
+              "chunk_id": null,
+              "node_id": "act:bns",
+              "tier": 1,
+              "score": 0.0
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "pack_tiers": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "pack_node_ids": [
+            "section:ipc:300",
+            "section:bns:101",
+            "act:ipc",
+            "act:bns"
+          ],
+          "gold": {
+            "id": "ipc_bns_murder",
+            "expected_mapping": {
+              "source": "s.300 ipc",
+              "target": "101"
+            },
+            "expected_sections": [
+              "Section 300",
+              "Section 101"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.006422542000109388,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "ipc_bns_murder_punishment",
+          "question": "What is the punishment for murder under Section 302 IPC?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4], [S5], [S6], [S7], [S8] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S8]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n- [S5] cited excerpt — see pack.\n- [S6] cited excerpt — see pack.\n- [S7] cited excerpt — see pack.\n- [S8] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Punishment for murder.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 302 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n302. Punishment for murder.\nWhoever commits murder shall be punished with death, or imprisonment for\nlife, and shall also be liable to fine.",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_26fc357f5c194863894e72ee0934bd35",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "section:ipc:302",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "Punishment for murder.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 103 BHARATIYA NYAYA SANHITA, 2023",
+              "excerpt": "\n103. Punishment for murder.\nWhoever commits murder shall be punished with death or imprisonment for life,\nand shall also be liable to fine.",
+              "source_id": "ep_42d45493168a4ca18724f145b3233858",
+              "source_span_id": "span_e35279cabf9b4130aa99d05cc56d2428",
+              "file_id": "file_1ee36c6bc4af4f91ac17403d656baaeb",
+              "chunk_id": null,
+              "node_id": "section:bns:103",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S3",
+              "type": "statute",
+              "title": "INDIAN PENAL CODE, 1860",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "act:ipc",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S4",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n302. Punishment for murder.\nWhoever commits murder shall be punished with death, or imprisonment for\nlife, and shall also be liable to fine.",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_26fc357f5c194863894e72ee0934bd35",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_26fc357f5c194863894e72ee0934bd35",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S5",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n103. Punishment for murder.\nWhoever commits murder shall be punished with death or imprisonment for life,\nand shall also be liable to fine.",
+              "source_id": "ep_42d45493168a4ca18724f145b3233858",
+              "source_span_id": "span_e35279cabf9b4130aa99d05cc56d2428",
+              "file_id": "file_1ee36c6bc4af4f91ac17403d656baaeb",
+              "chunk_id": null,
+              "node_id": "span_e35279cabf9b4130aa99d05cc56d2428",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S6",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S7",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XVI — OF OFFENCES AFFECTING THE HUMAN BODY",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_ec75cc3e6184406aa37b06e917a58c80",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_ec75cc3e6184406aa37b06e917a58c80",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S8",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XVII — OF OFFENCES AGAINST PROPERTY",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3215f4e7851240a687cb11b694b948d9",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_3215f4e7851240a687cb11b694b948d9",
+              "tier": 8,
+              "score": 0.1
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "pack_tiers": [
+            1,
+            1,
+            1,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "pack_node_ids": [
+            "section:ipc:302",
+            "section:bns:103",
+            "act:ipc",
+            "span_26fc357f5c194863894e72ee0934bd35",
+            "span_e35279cabf9b4130aa99d05cc56d2428",
+            "span_3cf45f4b734643289b0766f10e053e7f",
+            "span_ec75cc3e6184406aa37b06e917a58c80",
+            "span_3215f4e7851240a687cb11b694b948d9"
+          ],
+          "gold": {
+            "id": "ipc_bns_murder_punishment",
+            "expected_sections": [
+              "Section 302"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.0062014169998292346,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "ipc_bns_cheating",
+          "question": "What are the ingredients of cheating under Section 415 IPC, and which is the corresponding BNS provision?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S4]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Cheating.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 415 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n415. Cheating.\nWhoever, by deceiving any person, fraudulently or dishonestly induces the\nperson so deceived to deliver any property to any person, or to consent that\nany person shall retain any property, or intentionally induces the person so\ndeceived to do or omit to do anything which he would not do or omit if he were\nnot so deceived, and which act or omission causes or is likely to cause damage\nor harm to that person in body, mind, reputation or property, is said to\ncheat.",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_41b0ea9099c04910b26a65f0252b916d",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "section:ipc:415",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "Cheating.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 318 BHARATIYA NYAYA SANHITA, 2023",
+              "excerpt": "\n318. Cheating.\nWhoever, by deceiving any person, fraudulently or dishonestly induces the\nperson so deceived to deliver any property to any person, or to consent that\nany person shall retain any property, or intentionally induces the person so\ndeceived to do or omit to do anything which he would not do or omit if he\nwere not so deceived, and which act or omission causes or is likely to cause\ndamage or harm to that person in body, mind, reputation or property, is said\nto cheat. Whoever cheats shall be punished with imprisonment of either\ndescription for a term which may extend to three years, or with fine, or with\nboth.",
+              "source_id": "ep_42d45493168a4ca18724f145b3233858",
+              "source_span_id": "span_bd1987401a5543dbb509f148becc5c88",
+              "file_id": "file_1ee36c6bc4af4f91ac17403d656baaeb",
+              "chunk_id": null,
+              "node_id": "section:bns:318",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S3",
+              "type": "statute",
+              "title": "INDIAN PENAL CODE, 1860",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "act:ipc",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S4",
+              "type": "statute",
+              "title": "BHARATIYA NYAYA SANHITA, 2023",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "BHARATIYA NYAYA SANHITA, 2023",
+              "source_id": "ep_42d45493168a4ca18724f145b3233858",
+              "source_span_id": "span_481b33aadc6b4fd1a2a35ebe5427329a",
+              "file_id": "file_1ee36c6bc4af4f91ac17403d656baaeb",
+              "chunk_id": null,
+              "node_id": "act:bns",
+              "tier": 1,
+              "score": 0.0
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "pack_tiers": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "pack_node_ids": [
+            "section:ipc:415",
+            "section:bns:318",
+            "act:ipc",
+            "act:bns"
+          ],
+          "gold": {
+            "id": "ipc_bns_cheating",
+            "expected_mapping": {
+              "source": "s.415 ipc",
+              "target": "318"
+            },
+            "expected_sections": [
+              "Section 415",
+              "Section 318"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.006039916000190715,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "ipc_bns_culpable_homicide",
+          "question": "Define culpable homicide under Section 299 IPC.",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4], [S5], [S6], [S7], [S8] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S8]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n- [S5] cited excerpt — see pack.\n- [S6] cited excerpt — see pack.\n- [S7] cited excerpt — see pack.\n- [S8] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Culpable homicide.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 299 INDIAN PENAL CODE, 1860",
+              "excerpt": "\n299. Culpable homicide.\nWhoever causes death by doing an act with the intention of causing death, or\nwith the intention of causing such bodily injury as is likely to cause death,\nor with the knowledge that he is likely by such act to cause death, commits\nthe offence of culpable homicide.",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3a68a43b04024fcc9476b164a3813901",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "section:ipc:299",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "Culpable homicide.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 100 BHARATIYA NYAYA SANHITA, 2023",
+              "excerpt": "\n100. Culpable homicide.\nWhoever causes death by doing an act with the intention of causing death, or\nwith the intention of causing such bodily injury as is likely to cause death,\nor with the knowledge that he is likely by such act to cause death, commits\nthe offence of culpable homicide.",
+              "source_id": "ep_42d45493168a4ca18724f145b3233858",
+              "source_span_id": "span_f6087f77b11a4554b0d02f0195a962d7",
+              "file_id": "file_1ee36c6bc4af4f91ac17403d656baaeb",
+              "chunk_id": null,
+              "node_id": "section:bns:100",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S3",
+              "type": "statute",
+              "title": "INDIAN PENAL CODE, 1860",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "act:ipc",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S4",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n299. Culpable homicide.\nWhoever causes death by doing an act with the intention of causing death, or\nwith the intention of causing such bodily injury as is likely to cause death,\nor with the knowledge that he is likely by such act to cause death, commits\nthe offence of culpable homicide.",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3a68a43b04024fcc9476b164a3813901",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_3a68a43b04024fcc9476b164a3813901",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S5",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n100. Culpable homicide.\nWhoever causes death by doing an act with the intention of causing death, or\nwith the intention of causing such bodily injury as is likely to cause death,\nor with the knowledge that he is likely by such act to cause death, commits\nthe offence of culpable homicide.",
+              "source_id": "ep_42d45493168a4ca18724f145b3233858",
+              "source_span_id": "span_f6087f77b11a4554b0d02f0195a962d7",
+              "file_id": "file_1ee36c6bc4af4f91ac17403d656baaeb",
+              "chunk_id": null,
+              "node_id": "span_f6087f77b11a4554b0d02f0195a962d7",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S6",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S7",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XVI — OF OFFENCES AFFECTING THE HUMAN BODY",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_ec75cc3e6184406aa37b06e917a58c80",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_ec75cc3e6184406aa37b06e917a58c80",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S8",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XVII — OF OFFENCES AGAINST PROPERTY",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3215f4e7851240a687cb11b694b948d9",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_3215f4e7851240a687cb11b694b948d9",
+              "tier": 8,
+              "score": 0.1
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "pack_tiers": [
+            1,
+            1,
+            1,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "pack_node_ids": [
+            "section:ipc:299",
+            "section:bns:100",
+            "act:ipc",
+            "span_3a68a43b04024fcc9476b164a3813901",
+            "span_f6087f77b11a4554b0d02f0195a962d7",
+            "span_3cf45f4b734643289b0766f10e053e7f",
+            "span_ec75cc3e6184406aa37b06e917a58c80",
+            "span_3215f4e7851240a687cb11b694b948d9"
+          ],
+          "gold": {
+            "id": "ipc_bns_culpable_homicide",
+            "expected_sections": [
+              "Section 299"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.006461332999606384,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "unanswerable_random",
+          "question": "What is the meaning of the word xyzzy in Indian law?",
+          "matter_scope": null,
+          "answer": "Answer: Insufficient evidence was retrieved to answer this question from authoritative sources. No claim has been made. Narrow the query, add more relevant material, or check the ingestion status.\n\nLegal basis:\nConfidence: LOW\nInsufficient evidence: YES",
+          "insufficient_evidence": true,
+          "confidence": "low",
+          "citations": [],
+          "pack_spans": [],
+          "pack_tiers": [],
+          "pack_node_ids": [],
+          "gold": {},
+          "latency_s": 0.006052624999938416,
+          "notes": [
+            "refusal:retrieval_insufficient"
+          ],
+          "extras": {
+            "refusal_reason": "retrieval_insufficient"
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "private_matter_qa",
+      "summary": {
+        "items": 5,
+        "grounding_rate": 0.32,
+        "unsupported_claim_rate": 0.6799999999999999,
+        "fabricated_marker_rate": 0.0,
+        "citation_faithfulness": 1.0,
+        "span_citation_correctness": 1.0,
+        "pack_utilisation": 1.0,
+        "tier1_anchor_rate": 0.2,
+        "retrieval_hit_rate": 1.0,
+        "retrieval_coverage": 0.2,
+        "refusal_rate": 0.8,
+        "false_refusal_rate": 0.0,
+        "true_refusal_rate": 1.0,
+        "crosswalk_mapping_accuracy": 0.0,
+        "latency_mean_s": 0.005968366599881847,
+        "latency_p50_s": 0.005775833000370767,
+        "latency_p95_s": 0.006658458999481809,
+        "latency_max_s": 0.006658458999481809
+      },
+      "results": [
+        {
+          "id": "matter_offence_section",
+          "question": "Which IPC section is cited in the FIR for this matter?",
+          "matter_scope": "eval_private_matter_qa",
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4], [S5], [S6], [S7] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S7]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n- [S5] cited excerpt — see pack.\n- [S6] cited excerpt — see pack.\n- [S7] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "INDIAN PENAL CODE, 1860",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "act:ipc",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "INDIAN PENAL CODE, 1860",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_3cf45f4b734643289b0766f10e053e7f",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S3",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XVI — OF OFFENCES AFFECTING THE HUMAN BODY",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_ec75cc3e6184406aa37b06e917a58c80",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_ec75cc3e6184406aa37b06e917a58c80",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S4",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XVII — OF OFFENCES AGAINST PROPERTY",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3215f4e7851240a687cb11b694b948d9",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_3215f4e7851240a687cb11b694b948d9",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S5",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XVII — OF OFFENCES RELATING TO DOCUMENTS",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_cb1f148d829f4d4d9a27673767321e3d",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_cb1f148d829f4d4d9a27673767321e3d",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S6",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n299. Culpable homicide.\nWhoever causes death by doing an act with the intention of causing death, or\nwith the intention of causing such bodily injury as is likely to cause death,\nor with the knowledge that he is likely by such act to cause death, commits\nthe offence of culpable homicide.",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_3a68a43b04024fcc9476b164a3813901",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_3a68a43b04024fcc9476b164a3813901",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S7",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n300. Murder.\nExcept in the cases hereinafter excepted, culpable homicide is murder, if the\nact by which the death is caused is done with the intention of causing death,\nor with the intention of causing such bodily injury as the offender knows to\nbe likely to cause the death of the person to whom the harm is caused, or if\nit is done with the intention of causing bodily injury sufficient in the\nordinary course of nature to cause death.",
+              "source_id": "ep_c32341d12a8f480987b97597d7b297f3",
+              "source_span_id": "span_8ab6d5f863b64cc1a9192bbbc8cf9d19",
+              "file_id": "file_45cfb61c1bba4b74ab2e025209cee9fd",
+              "chunk_id": null,
+              "node_id": "span_8ab6d5f863b64cc1a9192bbbc8cf9d19",
+              "tier": 8,
+              "score": 0.1
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "pack_tiers": [
+            1,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "pack_node_ids": [
+            "act:ipc",
+            "span_3cf45f4b734643289b0766f10e053e7f",
+            "span_ec75cc3e6184406aa37b06e917a58c80",
+            "span_3215f4e7851240a687cb11b694b948d9",
+            "span_cb1f148d829f4d4d9a27673767321e3d",
+            "span_3a68a43b04024fcc9476b164a3813901",
+            "span_8ab6d5f863b64cc1a9192bbbc8cf9d19"
+          ],
+          "gold": {
+            "id": "matter_offence_section",
+            "expected_sections": [
+              "Section 379"
+            ]
+          },
+          "latency_s": 0.0060657909998553805,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "matter_date_and_time",
+          "question": "At what date and time did the alleged theft occur according to the FIR?",
+          "matter_scope": "eval_private_matter_qa",
+          "answer": "Answer: Insufficient evidence was retrieved to answer this question from authoritative sources. No claim has been made. Narrow the query, add more relevant material, or check the ingestion status.\n\nLegal basis:\nConfidence: LOW\nInsufficient evidence: YES",
+          "insufficient_evidence": true,
+          "confidence": "low",
+          "citations": [],
+          "pack_spans": [],
+          "pack_tiers": [],
+          "pack_node_ids": [],
+          "gold": {
+            "id": "matter_date_and_time",
+            "expected_keywords": [
+              "12-07-2024",
+              "21:30"
+            ]
+          },
+          "latency_s": 0.006658458999481809,
+          "notes": [
+            "refusal:retrieval_insufficient"
+          ],
+          "extras": {
+            "refusal_reason": "retrieval_insufficient"
+          }
+        },
+        {
+          "id": "matter_witness_priya",
+          "question": "What did the witness Priya Sharma observe in her statement?",
+          "matter_scope": "eval_private_matter_qa",
+          "answer": "Answer: Insufficient evidence was retrieved to answer this question from authoritative sources. No claim has been made. Narrow the query, add more relevant material, or check the ingestion status.\n\nLegal basis:\nConfidence: LOW\nInsufficient evidence: YES",
+          "insufficient_evidence": true,
+          "confidence": "low",
+          "citations": [],
+          "pack_spans": [],
+          "pack_tiers": [],
+          "pack_node_ids": [],
+          "gold": {
+            "id": "matter_witness_priya",
+            "expected_keywords": [
+              "grey hoodie",
+              "Palika Bazaar"
+            ]
+          },
+          "latency_s": 0.005775833000370767,
+          "notes": [
+            "refusal:retrieval_insufficient"
+          ],
+          "extras": {
+            "refusal_reason": "retrieval_insufficient"
+          }
+        },
+        {
+          "id": "matter_cctv",
+          "question": "Is there CCTV footage preserved in this matter, and who preserved it?",
+          "matter_scope": "eval_private_matter_qa",
+          "answer": "Answer: Insufficient evidence was retrieved to answer this question from authoritative sources. No claim has been made. Narrow the query, add more relevant material, or check the ingestion status.\n\nLegal basis:\nConfidence: LOW\nInsufficient evidence: YES",
+          "insufficient_evidence": true,
+          "confidence": "low",
+          "citations": [],
+          "pack_spans": [],
+          "pack_tiers": [],
+          "pack_node_ids": [],
+          "gold": {
+            "id": "matter_cctv",
+            "expected_keywords": [
+              "CCTV",
+              "Shop 24"
+            ]
+          },
+          "latency_s": 0.005683333999513707,
+          "notes": [
+            "refusal:retrieval_insufficient"
+          ],
+          "extras": {
+            "refusal_reason": "retrieval_insufficient"
+          }
+        },
+        {
+          "id": "matter_unanswerable",
+          "question": "Who is the accused's defence counsel?",
+          "matter_scope": "eval_private_matter_qa",
+          "answer": "Answer: Insufficient evidence was retrieved to answer this question from authoritative sources. No claim has been made. Narrow the query, add more relevant material, or check the ingestion status.\n\nLegal basis:\nConfidence: LOW\nInsufficient evidence: YES",
+          "insufficient_evidence": true,
+          "confidence": "low",
+          "citations": [],
+          "pack_spans": [],
+          "pack_tiers": [],
+          "pack_node_ids": [],
+          "gold": {},
+          "latency_s": 0.005658416000187572,
+          "notes": [
+            "refusal:retrieval_insufficient"
+          ],
+          "extras": {
+            "refusal_reason": "retrieval_insufficient"
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "procedure_crpc_bnss",
+      "summary": {
+        "items": 5,
+        "grounding_rate": 0.7777777777777778,
+        "unsupported_claim_rate": 0.2222222222222222,
+        "fabricated_marker_rate": 0.0,
+        "citation_faithfulness": 1.0,
+        "span_citation_correctness": 1.0,
+        "pack_utilisation": 1.0,
+        "tier1_anchor_rate": 0.8,
+        "retrieval_hit_rate": 1.0,
+        "retrieval_coverage": 0.8,
+        "refusal_rate": 0.2,
+        "false_refusal_rate": 0.0,
+        "true_refusal_rate": 1.0,
+        "crosswalk_mapping_accuracy": 0.5,
+        "latency_mean_s": 0.006115025200051605,
+        "latency_p50_s": 0.005974124999738706,
+        "latency_p95_s": 0.006535292000080517,
+        "latency_max_s": 0.006535292000080517
+      },
+      "results": [
+        {
+          "id": "fir_cognizable",
+          "question": "What is the procedure for registering an FIR under Section 154 CrPC, and what is the corresponding BNSS section?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4], [S5], [S6], [S7], [S8], [S9] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S8] [S9] [S9]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n- [S5] cited excerpt — see pack.\n- [S6] cited excerpt — see pack.\n- [S7] cited excerpt — see pack.\n- [S8] cited excerpt — see pack.\n- [S9] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Information in cognizable cases.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 173 BHARATIYA NAGARIK SURAKSHA SANHITA, 2023",
+              "excerpt": "\n173. Information in cognizable cases.\nEvery information relating to the commission of a cognizable offence,\nirrespective of the area where the offence is committed, may be given orally\nor by electronic communication to an officer in charge of a police station,\nwho shall reduce it to writing, read it over to the informant and obtain the\ninformant's signature; and the substance thereof shall be entered in a book\nkept by the officer.",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_93f0115c1eae4c638d3b84a05a4ef27f",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "section:bnss:173",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "statute",
+              "title": "BHARATIYA NAGARIK SURAKSHA SANHITA, 2023",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "BHARATIYA NAGARIK SURAKSHA SANHITA, 2023",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_2e9de8250cbe489e847a9013cd7e6048",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "act:bnss",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S3",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n63. Admissibility of electronic or digital records.\nNotwithstanding anything contained in this Adhiniyam, any information\ncontained in an electronic record which is produced from any device\nincluding a computer, storage medium, or communication device shall be\ndeemed to be a document and shall be admissible in any proceedings without\nfurther proof or production of the original, if the conditions specified in\nthis section are satisfied.",
+              "source_id": "ep_30d4dd8bf04f4ca29df9711e1cfdda28",
+              "source_span_id": "span_804865e78e63496d86a83b853735f938",
+              "file_id": "file_7b58c252c0a64449bbaf2596af3cc99a",
+              "chunk_id": null,
+              "node_id": "court:cat",
+              "tier": 4,
+              "score": 0.1
+            },
+            {
+              "marker": "S4",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n173. Information in cognizable cases.\nEvery information relating to the commission of a cognizable offence,\nirrespective of the area where the offence is committed, may be given orally\nor by electronic communication to an officer in charge of a police station,\nwho shall reduce it to writing, read it over to the informant and obtain the\ninformant's signature; and the substance thereof shall be entered in a book\nkept by the officer.",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_93f0115c1eae4c638d3b84a05a4ef27f",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_93f0115c1eae4c638d3b84a05a4ef27f",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S5",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "BHARATIYA NAGARIK SURAKSHA SANHITA, 2023",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_2e9de8250cbe489e847a9013cd7e6048",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_2e9de8250cbe489e847a9013cd7e6048",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S6",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n63. Admissibility of electronic or digital records.\nNotwithstanding anything contained in this Adhiniyam, any information\ncontained in an electronic record which is produced from any device\nincluding a computer, storage medium, or communication device shall be\ndeemed to be a document and shall be admissible in any proceedings without\nfurther proof or production of the original, if the conditions specified in\nthis section are satisfied.",
+              "source_id": "ep_30d4dd8bf04f4ca29df9711e1cfdda28",
+              "source_span_id": "span_804865e78e63496d86a83b853735f938",
+              "file_id": "file_7b58c252c0a64449bbaf2596af3cc99a",
+              "chunk_id": null,
+              "node_id": "span_804865e78e63496d86a83b853735f938",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S7",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XII — INFORMATION TO THE POLICE AND THEIR POWERS TO INVESTIGATE",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_b28d8e107e904f2c9415bca46993009c",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_b28d8e107e904f2c9415bca46993009c",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S8",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER V — ARREST OF PERSONS",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_681cab6fd7854f32bcde82a1d5d51cc1",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_681cab6fd7854f32bcde82a1d5d51cc1",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S9",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XXXV — PROVISIONS AS TO BAIL AND BONDS",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_c51677ee737f45c9b93b6cf54fe4a8a3",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_c51677ee737f45c9b93b6cf54fe4a8a3",
+              "tier": 8,
+              "score": 0.1
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "pack_tiers": [
+            1,
+            1,
+            4,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "pack_node_ids": [
+            "section:bnss:173",
+            "act:bnss",
+            "court:cat",
+            "span_93f0115c1eae4c638d3b84a05a4ef27f",
+            "span_2e9de8250cbe489e847a9013cd7e6048",
+            "span_804865e78e63496d86a83b853735f938",
+            "span_b28d8e107e904f2c9415bca46993009c",
+            "span_681cab6fd7854f32bcde82a1d5d51cc1",
+            "span_c51677ee737f45c9b93b6cf54fe4a8a3"
+          ],
+          "gold": {
+            "id": "fir_cognizable",
+            "expected_mapping": {
+              "source": "s.154 crpc",
+              "target": "173"
+            },
+            "expected_sections": [
+              "Section 154",
+              "Section 173"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.006535292000080517,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "arrest_no_warrant",
+          "question": "Under which section of the CrPC can a police officer arrest without warrant, and which BNSS section corresponds to it?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S1]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "BHARATIYA NAGARIK SURAKSHA SANHITA, 2023",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "BHARATIYA NAGARIK SURAKSHA SANHITA, 2023",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_2e9de8250cbe489e847a9013cd7e6048",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "act:bnss",
+              "tier": 1,
+              "score": 0.0
+            }
+          ],
+          "pack_spans": [
+            "1"
+          ],
+          "pack_tiers": [
+            1
+          ],
+          "pack_node_ids": [
+            "act:bnss"
+          ],
+          "gold": {
+            "id": "arrest_no_warrant",
+            "expected_mapping": {
+              "source": "s.41 crpc",
+              "target": "35"
+            },
+            "expected_sections": [
+              "Section 41",
+              "Section 35"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.005939042000136396,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "remand_24hr",
+          "question": "What does Section 167 CrPC say about remand when investigation is not completed within 24 hours?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4], [S5], [S6], [S7] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S7]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n- [S5] cited excerpt — see pack.\n- [S6] cited excerpt — see pack.\n- [S7] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "Procedure when investigation cannot be completed in twenty-four hours.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 187 BHARATIYA NAGARIK SURAKSHA SANHITA, 2023",
+              "excerpt": "\n187. Procedure when investigation cannot be completed in twenty-four hours.\nWhenever any person is arrested and detained in custody and it appears that\nthe investigation cannot be completed within the period of twenty-four hours,\nthe officer in charge of the police station or the police officer making the\ninvestigation shall forthwith transmit to the nearest Judicial Magistrate a\ncopy of the entries in the diary relating to the case, and shall at the same\ntime forward the accused to such Magistrate.",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_24bde88e9adb4d8e87539e844b00f3c9",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "section:bnss:187",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n187. Procedure when investigation cannot be completed in twenty-four hours.\nWhenever any person is arrested and detained in custody and it appears that\nthe investigation cannot be completed within the period of twenty-four hours,\nthe officer in charge of the police station or the police officer making the\ninvestigation shall forthwith transmit to the nearest Judicial Magistrate a\ncopy of the entries in the diary relating to the case, and shall at the same\ntime forward the accused to such Magistrate.",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_24bde88e9adb4d8e87539e844b00f3c9",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_24bde88e9adb4d8e87539e844b00f3c9",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S3",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "BHARATIYA NAGARIK SURAKSHA SANHITA, 2023",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_2e9de8250cbe489e847a9013cd7e6048",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_2e9de8250cbe489e847a9013cd7e6048",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S4",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XII — INFORMATION TO THE POLICE AND THEIR POWERS TO INVESTIGATE",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_b28d8e107e904f2c9415bca46993009c",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_b28d8e107e904f2c9415bca46993009c",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S5",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER V — ARREST OF PERSONS",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_681cab6fd7854f32bcde82a1d5d51cc1",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_681cab6fd7854f32bcde82a1d5d51cc1",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S6",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XXXV — PROVISIONS AS TO BAIL AND BONDS",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_c51677ee737f45c9b93b6cf54fe4a8a3",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_c51677ee737f45c9b93b6cf54fe4a8a3",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S7",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n173. Information in cognizable cases.\nEvery information relating to the commission of a cognizable offence,\nirrespective of the area where the offence is committed, may be given orally\nor by electronic communication to an officer in charge of a police station,\nwho shall reduce it to writing, read it over to the informant and obtain the\ninformant's signature; and the substance thereof shall be entered in a book\nkept by the officer.",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_93f0115c1eae4c638d3b84a05a4ef27f",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_93f0115c1eae4c638d3b84a05a4ef27f",
+              "tier": 8,
+              "score": 0.1
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "pack_tiers": [
+            1,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "pack_node_ids": [
+            "section:bnss:187",
+            "span_24bde88e9adb4d8e87539e844b00f3c9",
+            "span_2e9de8250cbe489e847a9013cd7e6048",
+            "span_b28d8e107e904f2c9415bca46993009c",
+            "span_681cab6fd7854f32bcde82a1d5d51cc1",
+            "span_c51677ee737f45c9b93b6cf54fe4a8a3",
+            "span_93f0115c1eae4c638d3b84a05a4ef27f"
+          ],
+          "gold": {
+            "id": "remand_24hr",
+            "expected_sections": [
+              "Section 167"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.005974124999738706,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "bail_non_bailable",
+          "question": "What is Section 437 CrPC on bail in non-bailable offences?",
+          "matter_scope": null,
+          "answer": "Answer:\nThe retrieved authorities [S1], [S2], [S3], [S4], [S5], [S6], [S7] bear on the question asked; the excerpts below are reproduced verbatim, with the binding statute text taking precedence over commentary. [S1] [S2] [S3] [S4] [S5] [S6] [S7] [S7]\n\nLegal basis:\n- [S1] cited excerpt — see pack.\n- [S2] cited excerpt — see pack.\n- [S3] cited excerpt — see pack.\n- [S4] cited excerpt — see pack.\n- [S5] cited excerpt — see pack.\n- [S6] cited excerpt — see pack.\n- [S7] cited excerpt — see pack.\n\nConfidence: LOW\nInsufficient evidence: NO",
+          "insufficient_evidence": false,
+          "confidence": "low",
+          "citations": [
+            {
+              "marker": "S1",
+              "type": "statute",
+              "title": "When bail may be taken in case of non-bailable offence.",
+              "authority": "Government of India",
+              "court": null,
+              "date": null,
+              "section_or_paragraph": "Section 480 BHARATIYA NAGARIK SURAKSHA SANHITA, 2023",
+              "excerpt": "\n480. When bail may be taken in case of non-bailable offence.\nWhen any person accused of or suspected of the commission of any non-bailable\noffence is arrested or detained without warrant by an officer in charge of a\npolice station or appears or is brought before a Court other than the High\nCourt or Court of Session, he may be released on bail, but shall not be so\nreleased if there appear reasonable grounds for believing that he has been\nguilty of an offence punishable with death or imprisonment for life.",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_0e0e7496282041f5a8fd52f8da424941",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "section:bnss:480",
+              "tier": 1,
+              "score": 0.0
+            },
+            {
+              "marker": "S2",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n480. When bail may be taken in case of non-bailable offence.\nWhen any person accused of or suspected of the commission of any non-bailable\noffence is arrested or detained without warrant by an officer in charge of a\npolice station or appears or is brought before a Court other than the High\nCourt or Court of Session, he may be released on bail, but shall not be so\nreleased if there appear reasonable grounds for believing that he has been\nguilty of an offence punishable with death or imprisonment for life.",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_0e0e7496282041f5a8fd52f8da424941",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_0e0e7496282041f5a8fd52f8da424941",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S3",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "BHARATIYA NAGARIK SURAKSHA SANHITA, 2023",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_2e9de8250cbe489e847a9013cd7e6048",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_2e9de8250cbe489e847a9013cd7e6048",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S4",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XII — INFORMATION TO THE POLICE AND THEIR POWERS TO INVESTIGATE",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_b28d8e107e904f2c9415bca46993009c",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_b28d8e107e904f2c9415bca46993009c",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S5",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER V — ARREST OF PERSONS",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_681cab6fd7854f32bcde82a1d5d51cc1",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_681cab6fd7854f32bcde82a1d5d51cc1",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S6",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "CHAPTER XXXV — PROVISIONS AS TO BAIL AND BONDS",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_c51677ee737f45c9b93b6cf54fe4a8a3",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_c51677ee737f45c9b93b6cf54fe4a8a3",
+              "tier": 8,
+              "score": 0.1
+            },
+            {
+              "marker": "S7",
+              "type": "judgment",
+              "title": null,
+              "authority": null,
+              "court": null,
+              "date": null,
+              "section_or_paragraph": null,
+              "excerpt": "\n173. Information in cognizable cases.\nEvery information relating to the commission of a cognizable offence,\nirrespective of the area where the offence is committed, may be given orally\nor by electronic communication to an officer in charge of a police station,\nwho shall reduce it to writing, read it over to the informant and obtain the\ninformant's signature; and the substance thereof shall be entered in a book\nkept by the officer.",
+              "source_id": "ep_aeb0aca6be8345f6852e65e8effb341d",
+              "source_span_id": "span_93f0115c1eae4c638d3b84a05a4ef27f",
+              "file_id": "file_acd47e1e5a3e494db2fa944f20508e8f",
+              "chunk_id": null,
+              "node_id": "span_93f0115c1eae4c638d3b84a05a4ef27f",
+              "tier": 8,
+              "score": 0.1
+            }
+          ],
+          "pack_spans": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "pack_tiers": [
+            1,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "pack_node_ids": [
+            "section:bnss:480",
+            "span_0e0e7496282041f5a8fd52f8da424941",
+            "span_2e9de8250cbe489e847a9013cd7e6048",
+            "span_b28d8e107e904f2c9415bca46993009c",
+            "span_681cab6fd7854f32bcde82a1d5d51cc1",
+            "span_c51677ee737f45c9b93b6cf54fe4a8a3",
+            "span_93f0115c1eae4c638d3b84a05a4ef27f"
+          ],
+          "gold": {
+            "id": "bail_non_bailable",
+            "expected_sections": [
+              "Section 437"
+            ],
+            "expected_tier1": true
+          },
+          "latency_s": 0.006180000000313157,
+          "notes": [
+            "provider:stub"
+          ],
+          "extras": {
+            "provider": "stub",
+            "enforcement": {
+              "dropped": 0,
+              "fabricated_markers": [],
+              "rejection_rate": 0.0
+            }
+          }
+        },
+        {
+          "id": "unanswerable_civil",
+          "question": "What does the CPC say about interlocutory applications?",
+          "matter_scope": null,
+          "answer": "Answer: Insufficient evidence was retrieved to answer this question from authoritative sources. No claim has been made. Narrow the query, add more relevant material, or check the ingestion status.\n\nLegal basis:\nConfidence: LOW\nInsufficient evidence: YES",
+          "insufficient_evidence": true,
+          "confidence": "low",
+          "citations": [],
+          "pack_spans": [],
+          "pack_tiers": [],
+          "pack_node_ids": [],
+          "gold": {},
+          "latency_s": 0.005946666999989247,
+          "notes": [
+            "refusal:retrieval_insufficient"
+          ],
+          "extras": {
+            "refusal_reason": "retrieval_insufficient"
+          }
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-04-18T08:39:37.847062+00:00",
+  "provider": "stub"
+}

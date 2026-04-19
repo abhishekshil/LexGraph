@@ -1,0 +1,6 @@
+{"id": "ipc_bns_theft", "expected_mapping": {"source": "s.378 ipc", "target": "303"}, "expected_sections": ["Section 378", "Section 303"], "expected_tier1": true}
+{"id": "ipc_bns_theft_punishment", "expected_sections": ["Section 379"], "expected_tier1": true}
+{"id": "ipc_bns_murder", "expected_mapping": {"source": "s.300 ipc", "target": "101"}, "expected_sections": ["Section 300", "Section 101"], "expected_tier1": true}
+{"id": "ipc_bns_murder_punishment", "expected_sections": ["Section 302"], "expected_tier1": true}
+{"id": "ipc_bns_cheating", "expected_mapping": {"source": "s.415 ipc", "target": "318"}, "expected_sections": ["Section 415", "Section 318"], "expected_tier1": true}
+{"id": "ipc_bns_culpable_homicide", "expected_sections": ["Section 299"], "expected_tier1": true}

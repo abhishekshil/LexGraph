@@ -1,0 +1,5 @@
+# High Court judgments via the eCourts public portal.
+# Seed PDFs here by external_id + url. Real crawling requires CAPTCHA handling
+# which we intentionally do not automate.
+version: 2025-01
+seeds: []

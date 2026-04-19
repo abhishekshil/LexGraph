@@ -1,0 +1,82 @@
+# IPC ↔ BNS crosswalk (seed rows).
+# Full table to be populated from the official concordance in Phase 2.
+# mapping_type: one_to_one | one_to_many | many_to_one | partial | none
+version: "0.1.0"
+source_act: "Indian Penal Code, 1860"
+target_act: "Bharatiya Nyaya Sanhita, 2023"
+notes: "Unofficial; verify against govt concordance at ingestion time."
+mappings:
+  - ipc: "299"
+    bns: "100"
+    mapping_type: one_to_one
+    topic: "culpable homicide"
+    notes: "Definition retained."
+  - ipc: "300"
+    bns: "101"
+    mapping_type: one_to_one
+    topic: "murder"
+  - ipc: "302"
+    bns: "103"
+    mapping_type: one_to_one
+    topic: "punishment for murder"
+  - ipc: "304"
+    bns: "105"
+    mapping_type: partial
+    topic: "culpable homicide not amounting to murder"
+    notes: "Penalty structure revised."
+  - ipc: "304A"
+    bns: "106"
+    mapping_type: one_to_one
+    topic: "causing death by negligence"
+  - ipc: "304B"
+    bns: "80"
+    mapping_type: one_to_one
+    topic: "dowry death"
+  - ipc: "306"
+    bns: "108"
+    mapping_type: one_to_one
+    topic: "abetment of suicide"
+  - ipc: "307"
+    bns: "109"
+    mapping_type: one_to_one
+    topic: "attempt to murder"
+  - ipc: "354"
+    bns: "74"
+    mapping_type: one_to_one
+    topic: "assault / criminal force on woman intending to outrage modesty"
+  - ipc: "376"
+    bns: "64"
+    mapping_type: one_to_one
+    topic: "rape - punishment"
+  - ipc: "378"
+    bns: "303"
+    mapping_type: one_to_one
+    topic: "theft (definition)"
+  - ipc: "379"
+    bns: "303"
+    mapping_type: one_to_one
+    topic: "theft - punishment (merged into s.303 BNS)"
+  - ipc: "390"
+    bns: "309"
+    mapping_type: one_to_one
+    topic: "robbery (definition)"
+  - ipc: "392"
+    bns: "309(4)"
+    mapping_type: partial
+    topic: "robbery - punishment"
+  - ipc: "415"
+    bns: "318"
+    mapping_type: one_to_one
+    topic: "cheating (definition)"
+  - ipc: "420"
+    bns: "318(4)"
+    mapping_type: partial
+    topic: "cheating + dishonestly inducing delivery"
+  - ipc: "499"
+    bns: "356"
+    mapping_type: one_to_one
+    topic: "defamation (definition)"
+  - ipc: "500"
+    bns: "356(2)"
+    mapping_type: one_to_one
+    topic: "punishment for defamation"

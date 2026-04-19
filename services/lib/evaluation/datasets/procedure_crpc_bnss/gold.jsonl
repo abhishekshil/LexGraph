@@ -1,0 +1,4 @@
+{"id": "fir_cognizable", "expected_mapping": {"source": "s.154 crpc", "target": "173"}, "expected_sections": ["Section 154", "Section 173"], "expected_tier1": true}
+{"id": "arrest_no_warrant", "expected_mapping": {"source": "s.41 crpc", "target": "35"}, "expected_sections": ["Section 41", "Section 35"], "expected_tier1": true}
+{"id": "remand_24hr", "expected_sections": ["Section 167"], "expected_tier1": true}
+{"id": "bail_non_bailable", "expected_sections": ["Section 437"], "expected_tier1": true}
